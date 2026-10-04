@@ -1,0 +1,33 @@
+{
+  "title": "From Trace to Modal Closure: Dynamic Conditions for Regenerative Reentry in a Path-Dependent Adaptive System",
+  "description": "Preprint and reproducibility package for a computational study of distributed historical traces, contextual readout, causal reentry, modal selection, non-normal input-output mismatch, and externally reconstructed modal closure in a path-dependent adaptive system. A fixed instance-specific dynamic closure plus fixed gain is sufficient for finite-horizon regenerative reentry across four tested nonlinear generations.",
+  "creators": [
+    {
+      "name": "Rozas Fernández, Gregorio",
+      "affiliation": "Independent Researcher"
+    }
+  ],
+  "version": "1.0.0",
+  "language": "eng",
+  "access_right": "open",
+  "license": "cc-by-4.0",
+  "upload_type": "publication",
+  "publication_type": "preprint",
+  "keywords": [
+    "nonlinear dynamics",
+    "path dependence",
+    "recurrent systems",
+    "non-normal dynamics",
+    "causal operators",
+    "modal closure",
+    "regenerative reentry",
+    "computational reproducibility"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/grerozas-tech/trace-to-modal-closure",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ]
+}
