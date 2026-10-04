@@ -6,7 +6,11 @@
 **Affiliation:** Independent Researcher  
 **Version:** v1.0.0  
 **Status:** public preprint release, October 4, 2026  
-**Repository:** https://github.com/grerozas-tech/trace-to-modal-closure
+**Repository:** https://github.com/grerozas-tech/trace-to-modal-closure  
+**Version DOI:** 10.5281/zenodo.23144597  
+**Concept DOI (all versions):** 10.5281/zenodo.23144596
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23144596.svg)](https://doi.org/10.5281/zenodo.23144596)
 
 ## Overview
 
@@ -206,4 +210,9 @@ The latter two direct commands run the documented eight-seed reconstruction-vali
 
 ## Citation and DOI
 
-The first Zenodo DOI will be added after archiving the tagged GitHub v1.0.0 release. Until then, cite this repository and the included preprint title/version.
+For the archival v1.0.0 release, cite:
+
+**Rozas Fernández, Gregorio (2026). _From Trace to Modal Closure: Dynamic Conditions for Regenerative Reentry in a Path-Dependent Adaptive System_. Version 1.0.0. Zenodo. DOI: 10.5281/zenodo.23144597.**
+
+- Version DOI: `10.5281/zenodo.23144597`
+- Concept DOI (all versions): `10.5281/zenodo.23144596`

@@ -8,7 +8,9 @@ authors:
     affiliation: "Independent Researcher"
 version: "1.0.0"
 date-released: "2026-10-04"
+doi: "10.5281/zenodo.23144597"
 repository-code: "https://github.com/grerozas-tech/trace-to-modal-closure"
+url: "https://doi.org/10.5281/zenodo.23144597"
 license: "CC-BY-4.0"
 keywords:
   - nonlinear dynamics
