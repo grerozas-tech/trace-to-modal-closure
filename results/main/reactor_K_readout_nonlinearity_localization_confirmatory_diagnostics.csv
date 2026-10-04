@@ -1,0 +1,2 @@
+K_relres_mean,scores_relres_mean,centered_relres_mean,centered_minus_scores_mean,b_relres_mean,b_minus_centered_abs_mean,x_relres_mean,ADDB_x_relres_mean,action_relres_mean,ADDB_action_relres_mean,action_nonlinearity_removed_fraction
+9.254669849560015e-16,0.06526335353371082,0.10301886540597568,0.03775551187226485,0.10301889962123109,6.704469414936672e-08,0.10300785670591908,2.7838510490985317e-07,0.11628715323341421,3.298427350550367e-07,0.9999971635496623

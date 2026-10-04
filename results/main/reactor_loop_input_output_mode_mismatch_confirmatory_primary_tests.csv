@@ -1,0 +1,5 @@
+hypothesis,mean_abs_cos,fraction_lt_0_65,bootstrap95_lo,bootstrap95_hi,passes,mean_output_cos_u1,fraction_gt_0_99,mean_cos_advantage,positive_fraction,mean_sigma1_over_spectral_radius,fraction_ratio_gt_1_2,mean_normalized_nonnormality
+H1_top_input_output_modes_are_misaligned,0.3159987854531384,1.0,0.2693297030814757,0.36267353508938216,True,,,,,,,
+H2_finite_output_follows_u1,,,,,True,0.9999985138117402,1.0,,,,,
+H3_output_prefers_u1_over_v1,,,0.6373765964177722,0.7304647145952935,True,,,0.6839297459859915,1.0,,,
+H4_operator_is_strongly_nonnormal,,,,,True,,,,,2.663029649034864,1.0,0.7553386808306077

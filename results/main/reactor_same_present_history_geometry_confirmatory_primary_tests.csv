@@ -1,0 +1,5 @@
+hypothesis,metric,mean_effect,median_effect,positive_seeds,n_seeds,positive_fraction,bootstrap95_lo,bootstrap95_hi,p_raw,p_holm,passes
+H1_causal_history_imprint,mean_response_norm,0.1300302426535841,0.13100341711230878,64,64,1.0,,,,,True
+H2_relational_specificity,rsa_over_label_shuffle,0.11878793333082385,0.11525271464861805,64,64,1.0,0.11088576587112198,0.12718938508682323,3.3333222222592593e-06,6.6666444445185185e-06,True
+H3_coherent_history_package,rsa_over_component_scramble,0.12061705209452932,0.1153511608071506,64,64,1.0,0.11265385164619562,0.1290243133819118,3.3333222222592593e-06,6.6666444445185185e-06,True
+H4_nontrivial_metric_structure,true_rsa,0.11884823544691081,0.11470285466429009,64,64,1.0,,,,,True

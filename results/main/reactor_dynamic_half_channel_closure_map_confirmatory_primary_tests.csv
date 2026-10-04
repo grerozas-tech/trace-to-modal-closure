@@ -1,0 +1,5 @@
+hypothesis,mean_abs_cos,fraction_gt_0_99,bootstrap95_lo,bootstrap95_hi,passes,mean_advantage,positive_fraction,mean_abs_error,fraction_error_lt_0_03
+H1_dynamic_closure_transfers_across_context,0.9997634814148559,1.0,0.999576541958949,0.99989776456961,True,,,,
+H2_dynamic_beats_static_geometry,,,0.38640248423407114,0.4454850237983523,True,0.4154300503014746,1.0,,
+H3_dynamic_is_instance_specific,,,0.8384033010878452,0.8865882516171212,True,0.863177082984957,1.0,,
+H4_dynamic_map_predicts_closure_need,,,0.0022021767178461143,0.003379042147412005,True,,,0.0027569910055194203,1.0

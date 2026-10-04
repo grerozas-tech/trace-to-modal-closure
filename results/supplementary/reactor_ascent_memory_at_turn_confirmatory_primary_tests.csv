@@ -1,0 +1,6 @@
+hypothesis,mean_removed,criterion_fraction,bootstrap95_lo,bootstrap95_hi,passes,mean_removed_M,mean_M_over_SLOW,ratio_fraction_gt_0_65,M_bootstrap95_lo,M_bootstrap95_hi,ratio_bootstrap95_lo,ratio_bootstrap95_hi,mean_removed_X,mean_X_over_FAST,ratio_fraction_gt_0_55,X_bootstrap95_lo,X_bootstrap95_hi,min_removed
+H1_slow_carries_majority,0.5386820479367255,0.953125,0.5182420082602611,0.5587503516922446,True,,,,,,,,,,,,,
+H2_m_dominates_slow,,,,,True,0.4762974352557922,0.8866742557858618,1.0,0.4587611511433494,0.4935062252935769,0.872062819952276,0.9001253158249939,,,,,,
+H3_fast_carries_substantial_memory,0.3419105024804395,1.0,0.3212030444793088,0.3631550008717199,True,,,,,,,,,,,,,
+H4_x_dominates_fast,,,,,True,,,,,,0.8291086664817434,0.8536615554239296,0.2907987840860969,0.8416952684744831,1.0,0.27022802537673596,0.31169196296489043,
+SANITY_all_state,1.0,,,,True,,,,,,,,,,,,,1.0

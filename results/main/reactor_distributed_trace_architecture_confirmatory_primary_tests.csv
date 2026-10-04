@@ -1,0 +1,5 @@
+hypothesis,metric,mean_effect,favorable_fraction,passes,bootstrap95_lo,bootstrap95_hi,p_raw,K_rsa_mean
+H1_causal_history_imprint,INTACT_norm,0.042844351978965856,1.0,True,,,,
+H2_R_amplitude_dominance,R_norm/(M_norm+GH_norm),9.583119006013824,0.984375,True,,,,
+H3_K_metric_trace,K_rsa_over_shuffle,0.8542990992951938,1.0,True,0.8283130662633654,0.8793163511506331,3.3333222222592593e-06,0.8600696976828565
+H4_R_masks_metric_geometry,NO_R_rsa-INTACT_rsa,0.728906832129902,1.0,True,0.6909630823555469,0.7653142228519672,3.3333222222592593e-06,

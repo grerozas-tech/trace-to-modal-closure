@@ -1,0 +1,5 @@
+hypothesis,mean_share,fraction_gt_0_70,bootstrap95_lo,bootstrap95_hi,passes,fraction_gt_0_78,mean_share_increase,positive_fraction,mean_m_residual,mean_x_residual,both_residual_lt_0_01_fraction,mean_abs_plusminus_m_ratio_diff,mean_abs_plusminus_x_ratio_diff
+H1_write_stage_enriches_compatible_mode,0.8050128323772892,1.0,0.7950495573705311,0.8149823455799023,True,,,,,,,,
+H2_full_loop_enriches_further,0.8672694958965843,,0.8594943802154439,0.8750057686761001,True,1.0,,,,,,,
+H3_return_adds_selection,,,0.05321051521830561,0.07139038868096159,True,,0.06225666351929532,0.953125,,,,,
+H4_phase_and_span_sanity,,,,,True,,,,0.00044524299498273617,0.00030275391978622327,1.0,0.0034635878796816233,0.005520458384166184

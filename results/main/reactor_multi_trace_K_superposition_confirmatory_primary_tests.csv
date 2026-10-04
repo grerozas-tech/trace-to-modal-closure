@@ -1,0 +1,5 @@
+hypothesis,metric,mean_effect,favorable_fraction,passes,bootstrap95_lo,bootstrap95_hi,p_raw,p_holm
+H1_high_dual_reconstruction,K_span_r2,0.9784485343115681,0.96875,True,,,,
+H2_correct_pair_specificity,K_span_advantage,0.40375171218007583,1.0,True,0.3556868945814067,0.4527622289300203,3.3333222222592593e-06,6.6666444445185185e-06
+H3_both_traces_needed,K_gain_vs_best_single,0.18712058804583623,1.0,True,0.16528834882130716,0.20862223703121685,3.3333222222592593e-06,6.6666444445185185e-06
+H4_older_trace_persists,K_old_trace_fraction,0.422587393791791,0.96875,True,,,,

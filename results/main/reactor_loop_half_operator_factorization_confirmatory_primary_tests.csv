@@ -1,0 +1,5 @@
+hypothesis,metric,G0_mean,G1_mean,both_stage_fraction,passes,G0_bootstrap95_lo,G0_bootstrap95_hi,G1_bootstrap95_lo,G1_bootstrap95_hi
+H1_x_to_m_is_strong_bottleneck,sigmaA,0.13157734073182825,0.13151048555601744,0.96875,True,,,,
+H2_return_channel_is_much_stronger,sigmaB/sigmaA,9.25786254172144,9.348367047582038,1.0,True,,,,
+H3_even_perfect_interface_contracts,sigmaA*sigmaB,0.1578209307661202,0.15947435412016658,0.953125,True,0.14457107477036393,0.1722500317920477,0.1459457980255718,0.17417446186800736
+H4_native_geometry_adds_further_loss,sigmaT/(sigmaA*sigmaB),0.6476408054155267,0.6454951718099065,0.96875,True,,,,

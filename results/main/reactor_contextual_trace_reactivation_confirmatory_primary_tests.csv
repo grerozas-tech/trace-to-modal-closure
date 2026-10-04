@@ -1,0 +1,5 @@
+hypothesis,metric,mean_effect,favorable_fraction,passes,bootstrap95_lo,bootstrap95_hi,p_raw,p_holm,raw_relative_rsa_mean
+H1_nonadditive_field,FULL_interaction_fraction,0.6584570839177031,1.0,True,,,,,
+H2_R_amplitude_dominance,R interaction norm/(M+K+GH),367.5253915224516,1.0,True,,,,,
+H3_K_relative_geometry,K_rsa_over_shuffle,0.2606266531058845,1.0,True,0.24235733397680742,0.27931487223145396,3.3333222222592593e-06,6.6666444445185185e-06,0.2603517535744524
+H4_M_relative_geometry,M_rsa_over_shuffle,0.21746444355408373,1.0,True,0.19344605330118075,0.2414608798908269,3.3333222222592593e-06,6.6666444445185185e-06,0.2175667490148702

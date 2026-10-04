@@ -1,0 +1,5 @@
+hypothesis,metric,mean_effect,favorable_fraction,passes
+H1_b_contextual_reweighting,||M_b||/||direct C in b||,0.19662539601895862,0.953125,True
+H2_action_contextual_reweighting,||M_a||/||direct C in action||,0.20488091235958705,0.9375,True
+H3_additive_b_removes_b_interaction,fraction b interaction removed,0.9999999999992808,1.0,True
+H4_additive_b_removes_action_interaction,fraction action interaction removed,0.9999861031268977,1.0,True

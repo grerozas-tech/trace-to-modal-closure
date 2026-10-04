@@ -1,0 +1,5 @@
+hypothesis,mean_relative_sigma_deviation,fraction_max_dev_lt_0_20,passes,G1_alignment_mean,G2_alignment_mean,G2_fraction_lt_0_50,G2_bootstrap95_lo,G2_bootstrap95_hi,reoriented_gain_mean_G2_G4,inherited_gain_mean_G2_G4,rescue_mean,rescue_positive_fraction,rescue_bootstrap95_lo,rescue_bootstrap95_hi,G4_reoriented_norm_mean,G4_inherited_norm_mean,reoriented_gt_inherited_fraction,G4_reoriented_bootstrap95_lo,G4_reoriented_bootstrap95_hi,G4_inherited_bootstrap95_lo,G4_inherited_bootstrap95_hi
+H1_mode_capacity_stays_available,0.03338700409185971,0.96875,True,,,,,,,,,,,,,,,,,,
+H2_inherited_packet_leaves_top_mode,,,True,0.9992621715593377,0.29517382423962374,0.84375,0.2520627603469838,0.33967409048039443,,,,,,,,,,,,,
+H3_norm_preserving_reorientation_restores_gain,,,True,,,,,,0.9797180491061416,0.38376831947320256,0.5959497296329389,1.0,0.5663003205722472,0.6251247432761378,,,,,,,
+H4_reorientation_prevents_multigeneration_extinction,,,True,,,,,,,,,,,,0.9500200538726922,0.07997734957012073,1.0,0.8533648546667719,1.0778969477338902,0.05544023745606449,0.11032352026119006

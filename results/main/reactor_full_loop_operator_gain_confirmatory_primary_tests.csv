@@ -1,0 +1,5 @@
+hypothesis,metric,mean_effect,fraction_below_0_20,bootstrap95_lo,bootstrap95_hi,passes,G0_mean,G1_mean,both_below_0_20_fraction,both_positive_fraction,G0_bootstrap95_lo,G0_bootstrap95_hi,G1_bootstrap95_lo,G1_bootstrap95_hi
+H1_G0_max_gain_contracts,sigma_max G0,0.10187676340037796,0.953125,0.09126657379215758,0.11380743324158285,True,,,,,,,,
+H2_G1_max_gain_contracts,sigma_max G1,0.10027385010105842,0.984375,0.09089899147238995,0.11029347596600844,True,,,,,,,,
+H3_finite_amplitude_top_mode_contracts,finite top gain G0/G1,,,,,True,0.09954793517917401,0.10024666455815084,0.96875,,,,,
+H4_optimal_mode_exceeds_native_history,sigma_max - historical norm gain,,,,,True,0.06239163269714883,0.06392215706422888,,1.0,0.05505080392685077,0.07036913497905509,0.05714894485460878,0.07143792423048806

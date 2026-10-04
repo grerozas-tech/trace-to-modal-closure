@@ -1,0 +1,5 @@
+hypothesis,mean_abs_difference,fraction_absdiff_lt_0_005,mean_signed_difference,passes,max_single_mean_abs_difference,max_single_mean_rescue,mean_gain_ratio,fraction_ratio_0_95_to_1_05
+H1_full_state_no_material_rescue,6.621172233234093e-05,1.0,1.2842387405656027e-05,True,,,,
+H2_all_slow_no_material_rescue,6.585912934525768e-05,1.0,1.2400316149754626e-05,True,,,,
+H3_no_single_package_rescues,,,,True,6.560993207977041e-05,1.2281687312420085e-05,,
+H4_full_state_ratio_equivalent,,,,True,,,0.9999306167235638,1.0

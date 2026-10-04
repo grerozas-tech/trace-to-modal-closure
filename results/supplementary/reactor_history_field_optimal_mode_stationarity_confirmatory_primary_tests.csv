@@ -1,0 +1,5 @@
+hypothesis,mean_angle_deg,fraction_seed_mean_lt_2deg,passes,mean_seed_max_angle_deg,fraction_seed_max_lt_5deg,mean_sigma_rel_spread,fraction_lt_0_10,mean_projector_distance,bootstrap95_lo,bootstrap95_hi
+H1_mean_history_mode_spread_small,0.7953265067018576,0.953125,True,,,,,,,
+H2_max_history_mode_spread_small,,,True,1.6135070046751339,0.953125,,,,,
+H3_capacity_stable_across_histories,,,True,,,0.01133209274601367,1.0,,,
+H4_projector_spread_small,,,True,,,,,0.019625932218472773,0.016551985325097635,0.02319141122018147

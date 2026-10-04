@@ -1,0 +1,5 @@
+hypothesis,metric,mean_effect,favorable_fraction,passes,bootstrap95_lo,bootstrap95_hi,p_raw,ADDB_a_relres_mean
+H1_norm_introduces_nonlinearity,scores_relres,0.06526335353371082,0.828125,True,,,,
+H2_relative_centering_amplifies,centered_relres-scores_relres,0.03775551187226485,0.765625,True,0.023660395064639583,0.055007262639728834,3.3333222222592593e-06,
+H3_sigmoid_adds_little,abs(b_relres-centered_relres),6.704469414936672e-08,1.0,True,,,,
+H4_additive_b_collapses_action_nonlinearity,a_relres-ADDB_a_relres,0.11628682339067917,1.0,True,0.09379309927716738,0.14164255142560797,3.3333222222592593e-06,3.298427350550367e-07

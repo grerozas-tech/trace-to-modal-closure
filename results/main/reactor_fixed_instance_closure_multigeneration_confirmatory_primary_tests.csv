@@ -1,0 +1,5 @@
+hypothesis,G4_mean_norm,fraction_G4_gt_0_70,bootstrap95_lo,bootstrap95_hi,passes,mean_advantage,positive_fraction,mean_alignment_G1_G4,fraction_seed_min_alignment_gt_0_98
+H1_fixed_dynamic_prevents_extinction,0.9921307679117886,0.96875,0.9604931751181688,1.0214352153616797,True,,,,
+H2_fixed_dynamic_beats_uncorrected,,,0.8812052930972659,0.9417284520659717,True,0.9125400603645437,1.0,,
+H3_fixed_dynamic_is_specific,,,0.7567050243016639,0.8272094653160929,True,0.7924204868335354,1.0,,
+H4_fixed_dynamic_preserves_modal_alignment,,,,,True,,,0.9991361483229377,1.0

@@ -1,0 +1,5 @@
+hypothesis,mean_abs_cos,fraction_gt_0_99,passes,mean_angle_deg,bootstrap95_lo,bootstrap95_hi,mean_projector_frobenius,mean_sigma_rel_change,fraction_lt_0_10
+H1_consecutive_mode_stationarity,0.9994477816293404,1.0,True,,,,,,
+H2_small_angular_displacement,,,True,1.3436535128231795,1.1590368708872005,1.5412792739040875,,,
+H3_small_projector_displacement,,,True,,0.02862398503510393,0.03803444373488123,0.03314616915998945,,
+H4_capacity_stability,,,True,,,,,0.017115407054385325,0.984375

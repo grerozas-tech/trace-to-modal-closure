@@ -1,0 +1,5 @@
+hypothesis,metric,mean_effect,favorable_fraction,passes,bootstrap95_lo,bootstrap95_hi,p_raw
+H1_storage_superposition,state_error,0.015139723164244731,0.890625,True,,,
+H2_synthetic_field_reproduces_operation,response_match_error,0.020337278653999844,0.96875,True,,,
+H3_nonlinearity_localized_to_readout,synthetic_nonadditivity-state_error,0.09776002720252755,0.96875,True,0.08099134250539511,0.11503187437288674,3.3333222222592593e-06
+H4_actual_and_synthetic_nonadditivity_match,abs(actual-synthetic nonadditivity),0.004014676237370451,0.984375,True,,,

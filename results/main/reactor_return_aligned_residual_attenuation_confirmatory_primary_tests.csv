@@ -1,0 +1,5 @@
+hypothesis,metric,mean_effect,favorable_fraction,bootstrap95_lo,bootstrap95_hi,passes
+H1_first_generation_rescue,RETURN-NATIVE x projection G1,0.16269621830504247,1.0,0.14179416318997368,0.18557328444498486,True
+H2_second_generation_rescue,RETURN-NATIVE x projection G2,0.03792364998517532,1.0,0.029306491921547235,0.04780376681846513,True
+H3_third_generation_amplitude_near_extinction,RETURN x norm ratio G3,0.007517731059365935,,0.004971680143188087,0.010751240395103497,True
+H4_third_generation_geometry_survives,RETURN x cosine G3,0.648329519519915,1.0,0.6256409266333872,0.6716702479839016,True

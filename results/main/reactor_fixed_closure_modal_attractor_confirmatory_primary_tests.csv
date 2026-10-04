@@ -1,0 +1,5 @@
+hypothesis,G4_mean_share,fraction_cells_gt_0_90,bootstrap95_lo,bootstrap95_hi,passes,mean_share_increase,positive_fraction,mean_G4_share_advantage,G1_share_90_mean,G1_share_67_5_mean,fraction_67_5_gt_90
+H1_nonorthogonal_inputs_converge,0.9902515066906973,0.9895833333333334,0.9873571768895206,0.9927400597298238,True,,,,,,
+H2_hard_nonorthogonal_case_is_strongly_enriched,,,0.825597523668477,0.8395797077557097,True,0.8331203454193761,1.0,,,,
+H3_fixed_closure_beats_uncorrected_selection,,,0.8605231102974208,0.8856240517759233,True,,1.0,0.8731495965288345,,,
+H4_exact_orthogonal_control_is_not_immediately_attracted,,,,,True,,,,0.001543721085121011,0.8641227185982312,1.0

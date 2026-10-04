@@ -1,0 +1,5 @@
+hypothesis,mean_norm_corr,fraction_gt_0_99,passes,mean_vector_cos,mean_relative_norm_error,fraction_lt_0_01,mean_vector_cos_advantage,mean_norm_corr_advantage,both_positive_fraction
+H1_norm_prediction_near_exact,0.9999971937735754,1.0,True,,,,,,
+H2_vector_prediction_near_exact,,1.0,True,0.9999976152351824,,,,,
+H3_absolute_error_small,,,True,,0.0010370087936315106,1.0,,,
+H4_direction_shuffle_breaks_prediction,,,True,,,,0.9499425948636498,0.9899158236706318,1.0
