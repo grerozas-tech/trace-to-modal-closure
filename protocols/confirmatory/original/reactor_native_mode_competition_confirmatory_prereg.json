@@ -1,0 +1,25 @@
+{
+  "experiment": "native_mode_competition_confirmatory_v1",
+  "status": "confirmatory after diagnostic seeds 169000-169007",
+  "new_seed_range": [
+    170000,
+    170063
+  ],
+  "input": "equal-energy simultaneous mixture A/sqrt(2)(v* +/- q), q orthogonal to v*; six q directions and both phases per seed",
+  "native_path": "24-step x->m write, isolate native delta_m, then 24-step m->x return",
+  "decomposition": "mixed response fitted in span of unit-normalized pure compatible and incompatible response directions",
+  "primary_hypotheses": {
+    "H1_write_stage_enriches_compatible_mode": "mean m compatible share >0.75; >90% seeds >0.70; bootstrap 95% lower bound >0.70",
+    "H2_full_loop_enriches_further": "mean x compatible share >0.82; >90% seeds >0.78; bootstrap 95% lower bound >0.78",
+    "H3_return_adds_selection": "mean x_share-m_share >0.04; >90% seeds positive; bootstrap 95% lower bound >0",
+    "H4_phase_and_span_sanity": "mean m and x two-component residuals each <0.005; >95% seeds have both residuals <0.01; mean absolute plus/minus ratio difference <0.05 at both supports"
+  },
+  "strong_success": "H1-H4 all pass",
+  "interpretation_rule": {
+    "all_pass": "the native channel performs robust mode competition: equal-energy compatible and incompatible components are differentially transmitted, with compatible weight increasing first during writing and further after return",
+    "H1_only": "selection occurs mainly in x->m writing",
+    "fail_H1": "diagnostic competition does not replicate"
+  },
+  "scope_warning": "differential causal transmission, not explicit recognition or a consciousness claim",
+  "no_posthoc_retuning": true
+}

@@ -1,0 +1,31 @@
+{
+  "experiment": "mx_memory_relay_confirmatory_v1",
+  "status": "confirmatory after diagnostics 126000-126007 and independent replication 126100-126115",
+  "new_seed_range": [
+    127000,
+    127063
+  ],
+  "phase_1": "24 neutral steps permit previously confirmed m->x or x->m reconstruction",
+  "source_removal": "after phase 1, replace the source with its matched FLAT-evolved value while leaving the reconstructed receiver untouched",
+  "phase_2": "12 further neutral steps, identical noise, no C experience, r/theta credit suppressed",
+  "controls": "receiver+source erased from the beginning, followed by the same source-removal intervention and phase-2 evolution",
+  "primary_hypotheses": {
+    "H1_x_to_m_durable_relay": "x->m relay contrast in m after 12 source-free steps >0.25 on average; >85% seeds positive; bootstrap lower bound >0",
+    "H2_x_to_m_operational_relay": "fixed-probe x->m relay contrast after source-free retention >0.20 on average; >85% seeds positive; bootstrap lower bound >0",
+    "H3_m_to_x_source_dependence": "m->x immediate relay minus m->x relay after 12 source-free steps >0.15 on average; >85% seeds positive; bootstrap lower bound >0",
+    "H4_directional_asymmetry": "x->m after12 relay minus m->x after12 relay >0.15 on average; >85% seeds positive; bootstrap lower bound >0"
+  },
+  "strong_success": "H1-H4 all pass",
+  "secondary_only": [
+    "absolute m->x after12 relay",
+    "m->x operational relay",
+    "immediate relay magnitudes"
+  ],
+  "interpretation_rule": {
+    "all_pass": "reentry is directionally asymmetric: x can write path information into m that persists and remains operational after x is removed, whereas m mainly sustains x through ongoing source-dependent reactivation",
+    "H1_H2_pass_H3_H4_fail": "durable x->m transfer exists but asymmetry is not established",
+    "H3_H4_pass_H1_H2_fail": "m->x source dependence is established but durable x->m relay is not"
+  },
+  "scope_warning": "information relay architecture in this reactor only; not biological consolidation, phenomenology, or consciousness",
+  "no_posthoc_retuning": true
+}

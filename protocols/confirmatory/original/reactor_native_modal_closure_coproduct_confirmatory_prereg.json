@@ -1,0 +1,32 @@
+{
+  "experiment": "native_modal_closure_coproduct_confirmatory_v1",
+  "status": "confirmatory after diagnostic seeds 173000-173007",
+  "new_seed_range": [
+    174000,
+    174063
+  ],
+  "conditions": [
+    "X_ONLY",
+    "M",
+    "THETA",
+    "R",
+    "KB",
+    "GH",
+    "FASTCTX",
+    "ALL_SLOW",
+    "ALL_NONX"
+  ],
+  "primary_hypotheses": {
+    "H1_full_state_no_material_rescue": "mean |ALL_NONX-X_ONLY| second-loop gain <0.002 and >95% seeds absolute difference <0.005",
+    "H2_all_slow_no_material_rescue": "mean |ALL_SLOW-X_ONLY| <0.002 and >95% seeds absolute difference <0.005",
+    "H3_no_single_package_rescues": "for M,THETA,R,KB,GH,FASTCTX each mean absolute gain difference from X_ONLY <0.002 and no package mean rescue exceeds 0.003",
+    "H4_full_state_ratio_equivalent": "mean ALL_NONX/X_ONLY gain ratio between 0.98 and 1.02 and >95% seeds between 0.95 and 1.05"
+  },
+  "strong_success": "H1-H4 all pass",
+  "interpretation_rule": {
+    "all_pass": "co-produced native non-x state does not provide a material modal-closure bridge for the inherited loop output in this regime",
+    "fail_H1": "full-state continuation contains a previously hidden closure contribution"
+  },
+  "scope_warning": "equivalence local to this carrier, loop and timescale; not a universal absence of closure mechanisms",
+  "no_posthoc_retuning": true
+}

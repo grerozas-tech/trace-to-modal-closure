@@ -1,0 +1,43 @@
+{
+  "experiment": "instance_specific_modal_closure_confirmatory_v1",
+  "status": "confirmatory after within-instance diagnostic on seeds 175000-175031",
+  "new_seed_range": [
+    176000,
+    176063
+  ],
+  "context_A": {
+    "history_deg": [
+      -135,
+      -45,
+      45
+    ],
+    "generation": 0
+  },
+  "context_B": {
+    "history_deg": [
+      45,
+      135,
+      -135
+    ],
+    "generation": 1
+  },
+  "closure_map": "unique minimal-plane orthogonal rotation Q_A that maps normalized u_A to normalized v_A and is identity outside span(u_A,v_A)",
+  "tests": {
+    "OWN": "apply Q_A from a seed's context A to that same seed's u_B",
+    "WRONG_SEED": "apply Q_A from another seed to u_B",
+    "IDENTITY": "leave u_B unchanged"
+  },
+  "primary_hypotheses": {
+    "H1_own_closure_generalizes": "mean abs cosine(Q_A u_B, v_B) >0.97; >95% seeds >0.90; bootstrap lower bound >0.95",
+    "H2_own_beats_identity": "mean OWN-IDENTITY abs-cos advantage >0.50; >95% seeds positive; bootstrap lower bound >0.40",
+    "H3_own_beats_wrong_seed": "mean OWN-WRONG_SEED advantage >0.50; >95% seeds positive; bootstrap lower bound >0.40",
+    "H4_pair_geometry_is_stable": "mean abs cosine(u_A,u_B)>0.98 and mean abs cosine(v_A,v_B)>0.98"
+  },
+  "strong_success": "H1-H4 all pass",
+  "interpretation_rule": {
+    "all_pass": "the modal input-output mismatch is governed by an instance-specific but context-stable closure geometry; the missing closure is not universal across reactor instances",
+    "fail_H1": "within-instance closure is not stable enough to generalize from one context to another"
+  },
+  "scope_warning": "external reconstruction of an instance-specific geometry; not evidence that the reactor natively applies this closure",
+  "no_posthoc_retuning": true
+}

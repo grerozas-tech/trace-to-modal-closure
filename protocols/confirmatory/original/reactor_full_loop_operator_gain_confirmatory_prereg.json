@@ -1,0 +1,53 @@
+{
+  "experiment": "full_loop_operator_gain_confirmatory_v1",
+  "status": "confirmatory after diagnostic seeds 150000-150007",
+  "new_seed_range": [
+    151000,
+    151063
+  ],
+  "prospective_history_rotation": {
+    "rule": "tuple chosen by seed mod 4 before outcomes",
+    "tuples_deg": [
+      [
+        -135,
+        -45,
+        45
+      ],
+      [
+        -45,
+        45,
+        135
+      ],
+      [
+        45,
+        135,
+        -135
+      ],
+      [
+        135,
+        -135,
+        -45
+      ]
+    ]
+  },
+  "carriers": [
+    "G0",
+    "G1"
+  ],
+  "operator": "32x32 central-finite-difference Jacobian of the fully isolated 24-step x->m + 24-step m->x causal loop",
+  "epsilon": 0.0001,
+  "primary_hypotheses": {
+    "H1_G0_max_gain_contracts": "mean sigma_max(G0) <0.15; >90% seeds <0.20; bootstrap 95% upper bound <0.20",
+    "H2_G1_max_gain_contracts": "mean sigma_max(G1) <0.15; >90% seeds <0.20; bootstrap 95% upper bound <0.20",
+    "H3_finite_amplitude_top_mode_contracts": "mean finite top-mode gain <0.15 at both G0 and G1; >90% seeds <0.20 at both stages",
+    "H4_optimal_mode_exceeds_native_history": "mean [sigma_max - historical norm gain] >0.04 at both G0 and G1; >80% seeds positive at both stages; bootstrap lower bounds >0"
+  },
+  "strong_success": "H1-H4 all pass",
+  "interpretation_rule": {
+    "all_pass": "the isolated loop is locally and finite-amplitude contractive even along its optimal direction; native history is additionally suboptimal, but alignment alone cannot make the loop regenerative",
+    "H1_H2_pass_H3_fail": "linearized loop is contractive but finite-amplitude nonlinear regeneration remains possible",
+    "fail_H1_or_H2": "a latent local regenerative mode exists in at least one stage/context"
+  },
+  "scope_warning": "local causal loop gain in this reactor; not a statement about biological memory, phenomenology, or consciousness",
+  "no_posthoc_retuning": true
+}

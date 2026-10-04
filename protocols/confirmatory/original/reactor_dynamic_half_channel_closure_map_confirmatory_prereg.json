@@ -1,0 +1,51 @@
+{
+  "experiment": "dynamic_half_channel_closure_map_confirmatory_v1",
+  "status": "confirmatory after diagnostic seeds 183000-183007",
+  "new_seed_range": [
+    184000,
+    184063
+  ],
+  "contexts": {
+    "A": {
+      "history_deg": [
+        -135,
+        -45,
+        45
+      ],
+      "generation": 0
+    },
+    "B": {
+      "history_deg": [
+        45,
+        135,
+        -135
+      ],
+      "generation": 1
+    }
+  },
+  "closure_map": "C_dyn^A derived only from the SVD factorization of effective half-channel operators A_eff and B_eff in context A",
+  "controls": [
+    "IDENTITY",
+    "STATIC_OWN from raw Pm,M",
+    "DYNAMIC_WRONG_SEED"
+  ],
+  "primary_hypotheses": {
+    "H1_dynamic_closure_transfers_across_context": "mean abs cosine(C_dyn^A u_B,v_B) >0.995; >95% seeds >0.99; bootstrap 95% lower bound >0.99",
+    "H2_dynamic_beats_static_geometry": "mean DYNAMIC_OWN-STATIC_OWN abs-cos advantage >0.20; >90% seeds positive; bootstrap lower bound >0.15",
+    "H3_dynamic_is_instance_specific": "mean DYNAMIC_OWN-DYNAMIC_WRONG_SEED advantage >0.70; >95% seeds positive; bootstrap lower bound >0.60",
+    "H4_dynamic_map_predicts_closure_need": "mean absolute error between predicted need [1-|u_B.C_dyn^A u_B|] and actual need [1-|u_B.v_B|] <0.02; >90% seeds error <0.03; bootstrap 95% upper bound <0.02"
+  },
+  "strong_success": "H1-H4 all pass",
+  "secondary_only": [
+    "identity baseline",
+    "u_A-u_B stability",
+    "v_A-v_B stability",
+    "static need prediction error"
+  ],
+  "interpretation_rule": {
+    "all_pass": "instance-specific modal closure geometry is carried by the effective causal half-channel factorization and transfers across context; it predicts both the required direction and the amount of closure far better than raw static matrices",
+    "H1_pass_H4_fail": "direction transfers but closure magnitude is not predictably preserved"
+  },
+  "scope_warning": "external reconstruction from causal operators; not evidence that the reactor natively computes or applies C_dyn",
+  "no_posthoc_retuning": true
+}

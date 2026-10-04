@@ -1,0 +1,33 @@
+{
+  "experiment": "third_trace_contextual_reweighting_confirmatory_v1",
+  "status": "confirmatory after independent diagnostics 111000-111007 and 112000-112015",
+  "new_seed_range": [
+    113000,
+    113063
+  ],
+  "construction": "native single-trace K increments from matched slots; K_AB=K0+dA+dB; K_ABC=K_AB+dC",
+  "contextual_interaction": {
+    "b": "M_b = (b_ABC-b_AB)-(b_C-b_0)",
+    "action": "M_a = (a_ABC-a_AB)-(a_C-a_0)"
+  },
+  "causal_control": "replace native b_AB and b_ABC by exact additive sums of the corresponding single-trace b increments, keeping K_AB/K_ABC and all current variables unchanged",
+  "primary_hypotheses": {
+    "H1_b_contextual_reweighting": "mean ||M_b|| / ||b_C-b0|| >0.10 and >75% seeds exceed 0.05",
+    "H2_action_contextual_reweighting": "mean ||M_a|| / ||a_C-a0|| >0.10 and >75% seeds exceed 0.05",
+    "H3_additive_b_removes_b_interaction": "mean fraction of b interaction removed >0.999 and >90% seeds exceed 0.999",
+    "H4_additive_b_removes_action_interaction": "mean fraction of action interaction removed >0.99 and >90% seeds exceed 0.99"
+  },
+  "strong_success": "H1-H4 all pass",
+  "secondary_only": [
+    "fraction of field coordinates crossing the median criterion",
+    "median-only frozen-reference intervention",
+    "absolute modulation norms"
+  ],
+  "interpretation_rule": {
+    "all_pass": "a third trace contextually changes the operational contribution of an existing A+B field without altering their stored K increments; the effect is mediated by the nonadditive K->b field readout",
+    "H1_H2_pass_H3_H4_fail": "third-trace modulation exists but mediation by b readout is not established",
+    "fail_H1_or_H2": "the contextual reweighting effect is too small relative to the direct C effect to support the claim"
+  },
+  "scope_warning": "reactor-specific distributed-readout mechanism; not a claim of physical fields, biology, phenomenology, or consciousness",
+  "no_posthoc_retuning": true
+}

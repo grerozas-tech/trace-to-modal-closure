@@ -1,0 +1,32 @@
+{
+  "experiment": "return_aligned_residual_attenuation_confirmatory_v1",
+  "status": "confirmatory after diagnostic seeds 148000-148007",
+  "new_seed_range": [
+    149000,
+    149063
+  ],
+  "conditions": {
+    "NATIVE": "isolated native x->m->x relay",
+    "RETURN_ALIGNED": "native x->m writing followed by equal-norm rotation of each m packet to empirical G_mx.T @ contemporaneous target_x before m->x return"
+  },
+  "generations": [
+    1,
+    2,
+    3
+  ],
+  "selection_note": "RETURN_ALIGNED was the most persistent diagnostic correction; this selection is frozen before confirmatory seeds",
+  "primary_hypotheses": {
+    "H1_first_generation_rescue": "RETURN_ALIGNED - NATIVE x projection at G1 >0.08 on average; >85% seeds positive; bootstrap lower bound >0",
+    "H2_second_generation_rescue": "RETURN_ALIGNED - NATIVE x projection at G2 >0.015 on average; >80% seeds positive; bootstrap lower bound >0",
+    "H3_third_generation_amplitude_near_extinction": "RETURN_ALIGNED x norm ratio at G3 <0.015 on average and bootstrap 95% upper bound <0.02",
+    "H4_third_generation_geometry_survives": "RETURN_ALIGNED x cosine at G3 >0.55 on average; >80% seeds exceed 0.40; bootstrap lower bound >0.40"
+  },
+  "strong_success": "H1-H4 all pass",
+  "interpretation_rule": {
+    "all_pass": "geometric correction preserves path orientation but cannot prevent amplitude extinction; residual multigeneration dissipation is primarily attenuation after fidelity has been rescued",
+    "H1_H2_pass_H3_fail": "geometric correction may actually sustain amplitude longer than diagnostics suggested",
+    "H3_pass_H4_fail": "signal dies together with geometry; attenuation/fidelity separation is not established"
+  },
+  "scope_warning": "external oracle correction in this reactor; not a native self-correcting mechanism or consciousness claim",
+  "no_posthoc_retuning": true
+}

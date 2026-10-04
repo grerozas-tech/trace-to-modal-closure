@@ -1,0 +1,84 @@
+{
+  "experiment": "same_present_history_geometry_confirmatory_v1",
+  "status": "confirmatory causal audit after separate diagnostic seeds 72000-72007",
+  "new_seed_range": [
+    73000,
+    73063
+  ],
+  "architecture": "native C4 rotational-relation reactor; no new mechanism added",
+  "conceptual_prior": "prospective plate record: El fluir de la geometr\u00eda relacional com\u00fan",
+  "relations_deg": [
+    -150,
+    -120,
+    -90,
+    -60,
+    -30,
+    0,
+    30,
+    60,
+    90,
+    120,
+    150,
+    180
+  ],
+  "exposure": {
+    "steps": 80,
+    "same_exogenous_noise": "identical across all relation histories within seed",
+    "policy_orientation": "w=0",
+    "maintenance": "finite reserve"
+  },
+  "common_present": {
+    "carrier": "phi=0 exposure state",
+    "held_exactly_common": [
+      "s",
+      "e",
+      "x",
+      "a",
+      "prev_u",
+      "prev_z",
+      "prev_v"
+    ],
+    "history_package_transplanted": [
+      "m",
+      "theta",
+      "r",
+      "K",
+      "b",
+      "gh"
+    ],
+    "future_world": "phi=0 for every history condition",
+    "future_noise": "identical across all transplanted histories within seed",
+    "rollout_steps": 8
+  },
+  "future_response": "concatenation of 8 future action vectors and 8 native recurrent-state increments dx",
+  "controls": {
+    "label_shuffle": "permute which donor relation label is assigned to each intact response; response data unchanged",
+    "component_scramble": "independently permute donor identity for m, theta, r, K, b, gh; preserves marginal distributions of every history component while destroying coherent historical package",
+    "n_shuffles": 32
+  },
+  "metrics": {
+    "history_imprint_norm": "mean Euclidean norm between each donor-history future response and the phi=0 carrier-history response",
+    "response_RSA": "correlation of pairwise standardized future-response distances with true circular chord distances between donor relations",
+    "label_RSA_advantage": "true RSA - mean label-shuffle RSA",
+    "component_RSA_advantage": "true RSA - mean component-scramble RSA"
+  },
+  "primary_hypotheses": {
+    "H1_causal_history_imprint": "mean history_imprint_norm >0.08 AND >90% seeds exceed 0.06",
+    "H2_relational_specificity": "true response RSA > mean label-shuffle RSA",
+    "H3_coherent_history_package": "true response RSA > mean component-scramble RSA",
+    "H4_nontrivial_metric_structure": "mean true response RSA >0.07 AND >60% seeds exceed 0.05"
+  },
+  "tests": "H2-H3 one-sided sign-flip across 64 seeds with Holm correction; each also requires >60% favorable seeds and bootstrap 95% lower bound >0. H1/H4 are preregistered threshold criteria.",
+  "secondary_only": [
+    "heldout angular decoding error",
+    "PCA2 explained variance of future responses",
+    "rollout viability"
+  ],
+  "strong_success": "H1-H4 all pass",
+  "interpretation_rule": {
+    "all_pass": "with present surface/recurrent state fixed, coherent native history causally organizes the system's subsequent trajectory according to relational similarity",
+    "H1_only": "history matters causally but no common relational organization is established",
+    "H2_H3_without_H4": "relation organization exists relative to controls but is too weak to call a stable common metric geometry"
+  },
+  "no_posthoc_retuning": true
+}

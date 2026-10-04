@@ -1,0 +1,33 @@
+{
+  "experiment": "history_field_optimal_mode_stationarity_confirmatory_v1",
+  "status": "confirmatory after diagnostic seeds 160000-160007",
+  "new_seed_range": [
+    161000,
+    161063
+  ],
+  "histories_deg": [
+    0,
+    45,
+    90,
+    135,
+    180,
+    225,
+    270,
+    315
+  ],
+  "common_present": "identical fast/current carrier; transplant only [m,theta,r,K,b,gh]",
+  "audit": "same standardized causal loop probe for all historical fields within a seed",
+  "primary_hypotheses": {
+    "H1_mean_history_mode_spread_small": "mean seed-level pairwise angle <1.5 degrees and >90% seeds have mean angle <2 degrees",
+    "H2_max_history_mode_spread_small": "mean seed-level maximum angle <3 degrees and >90% seeds have max angle <5 degrees",
+    "H3_capacity_stable_across_histories": "mean sigma1 relative spread <0.05 and >90% seeds <0.10",
+    "H4_projector_spread_small": "mean seed-level projector distance <0.04 and bootstrap 95% upper bound <0.05"
+  },
+  "strong_success": "H1-H4 all pass",
+  "interpretation_rule": {
+    "all_pass": "even strong distributed historical-field substitutions at a common present leave the dominant loop mode effectively stationary; historical organization modulates response without substantially relocating the loop's top-gain direction",
+    "fail_H1_or_H2": "history-conditioned mode displacement remains viable"
+  },
+  "scope_warning": "stationarity of this loop mode under these history manipulations; not a universal claim that optimal modes never move",
+  "no_posthoc_retuning": true
+}

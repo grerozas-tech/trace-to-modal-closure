@@ -1,0 +1,85 @@
+{
+  "experiment": "causal_relation_geometry_generalization_v1",
+  "status": "new causal-geometry scaffold preregistered before run",
+  "scope_warning": "the causal relation signature is explicitly constructed from action\u2192body transition pairs. Success demonstrates how a continuous internal relation geometry can support generalization; it does not show that such a geometry emerged spontaneously in the original reactor.",
+  "diagnostic_basis": {
+    "seed_range": [
+      65000,
+      65007
+    ],
+    "relations_deg": [
+      -135,
+      -90,
+      -45,
+      0,
+      45,
+      90,
+      135,
+      180
+    ],
+    "result": "static viability optimum was exactly w*=-phi for every relation in all 8 seeds; mean and median angular error 0 deg",
+    "separate_learning_diagnostic": "stepwise scalar eligibility learning was insufficiently reliable and is not used in the confirmatory geometry test"
+  },
+  "new_seed_range": [
+    66000,
+    66063
+  ],
+  "architecture": "C4 + finite maintenance reserve; no relation-memory slots in GEOMETRIC condition",
+  "relation_dynamics": "body action is transformed by a hidden shared 4D block rotation R4(phi)",
+  "anchor_relations_deg": [
+    -135,
+    -45,
+    45,
+    135
+  ],
+  "unseen_test_relations_deg": [
+    -90,
+    0,
+    90,
+    180
+  ],
+  "recognition": {
+    "steps": 30,
+    "policy": "neutral orientation w=0 for every condition",
+    "same_trajectory": "recognition is run once per seed\u00d7relation; every condition forks from the identical post-recognition state, integrity and reserve",
+    "causal_signature": "from each transition compute y=-[s_post-As*s_pre-.25*e_post]/.40; accumulate dot(a,y) and planar cross(a,y) over both 2D body pairs; phi_hat=atan2(sum_cross,sum_dot)",
+    "minimum_action_norm": 0.05
+  },
+  "conditions": {
+    "GEOMETRIC": "w=-phi_hat, continuous; no category quantization",
+    "NEAREST4": "quantize phi_hat to nearest anchor relation {-135,-45,45,135}; use inverse of that anchor",
+    "SHUFFLED_PAIR": "compute phi_hat after deterministically permuting consequence vectors y across recognition times while preserving action and consequence marginals; w=-phi_hat_shuffled",
+    "ORACLE": "w=-true_phi, secondary ceiling",
+    "NO_COMP": "w=0, secondary baseline"
+  },
+  "evaluation": {
+    "horizon": 150,
+    "future_noise_branches": 4,
+    "matched_future_noise": true,
+    "policy_orientation_frozen": true,
+    "exploration_off": true,
+    "maintenance": "finite reserve, same rule as previous scaffold"
+  },
+  "primary_metrics": {
+    "recognition_error_deg": "absolute circular error |phi_hat-phi|",
+    "mean_viability": "mean V over 150 post-recognition steps averaged across four branches",
+    "oracle_gap": "V_ORACLE-V_GEOMETRIC"
+  },
+  "primary_hypotheses": {
+    "H1": "mean recognition error <5 deg AND >90% of seed\u00d7relation units have error<10 deg",
+    "H2": "per-seed mean viability GEOMETRIC > NEAREST4",
+    "H3": "per-seed mean viability GEOMETRIC > SHUFFLED_PAIR",
+    "H4": "per-seed oracle_gap <0.01 on average, with bootstrap 95% upper bound <0.02"
+  },
+  "tests": "H2-H3 one-sided sign-flip across 64 seeds with Holm correction; >60% positive seeds and bootstrap lower bound >0. H1/H4 use preregistered threshold criteria.",
+  "strong_success": "H1-H4 all pass",
+  "secondary_diagnostics": [
+    "GEOMETRIC vs NO_COMP",
+    "shuffled recognition error",
+    "viability by unseen relation",
+    "integrity/reserve",
+    "pairwise code distance vs true angular distance"
+  ],
+  "interpretation_rule": "success supports a continuous causal relation geometry that can recognize an unseen action-body transformation and immediately generate near-oracle behavior, outperforming categorical nearest-memory retrieval. It is causal system identification/generalization, not consciousness and not spontaneous latent geometry.",
+  "no_posthoc_retuning": true
+}

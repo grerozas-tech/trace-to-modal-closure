@@ -1,0 +1,23 @@
+{
+  "experiment": "loop_input_output_mode_mismatch_confirmatory_v1",
+  "status": "confirmatory after diagnostic seeds 171000-171007",
+  "new_seed_range": [
+    172000,
+    172063
+  ],
+  "carrier": "G1 matched control carrier",
+  "operator": "isolated x->m->x loop T with SVD T=USV^T",
+  "primary_hypotheses": {
+    "H1_top_input_output_modes_are_misaligned": "mean |u1 dot v1| <0.50; >80% seeds <0.65; bootstrap 95% upper bound <0.55",
+    "H2_finite_output_follows_u1": "mean finite-output cosine with u1 >0.995; >95% seeds >0.99",
+    "H3_output_prefers_u1_over_v1": "mean [cos(out,u1)-cos(out,v1)] >0.40; >90% seeds positive; bootstrap 95% lower bound >0.25",
+    "H4_operator_is_strongly_nonnormal": "mean sigma1/spectral_radius >1.5; >90% seeds >1.2; mean normalized commutator >0.50"
+  },
+  "strong_success": "H1-H4 all pass",
+  "interpretation_rule": {
+    "all_pass": "the loop's strongest selectable input mode is not reproduced as its strongest output mode; non-normal input-output mismatch explains why one-pass competition can enrich a mode while repeated inheritance drifts away from the next optimal input",
+    "fail_H1": "input-output mode mismatch does not generalize"
+  },
+  "scope_warning": "operator geometry in this reactor; no explicit recognition or consciousness claim",
+  "no_posthoc_retuning": true
+}

@@ -1,0 +1,30 @@
+{
+  "experiment": "K_storage_superposition_nonlinear_readout_confirmatory_v1",
+  "status": "confirmatory after independent diagnostic seeds 106000-106007",
+  "new_seed_range": [
+    107000,
+    107063
+  ],
+  "conceptual_origin": "EL CAMPO DISTRIBUIDO DE TRAZAS — superposición + interferencia",
+  "task": "paired A/B trace histories in native K with matched single-trace references and a common future probe",
+  "synthetic_field": "K_synth = K_naive + (K_A-K_naive) + (K_B-K_naive)",
+  "primary_hypotheses": {
+    "H1_storage_superposition": "mean ||K_AB-K_synth||/||K_AB-K0|| <0.02 and >75% seeds <0.025",
+    "H2_synthetic_field_reproduces_operation": "mean ||R(K_AB)-R(K_synth)||/||R(K_AB)-R(K0)|| <0.03 and >75% seeds <0.05",
+    "H3_nonlinearity_localized_to_readout": "synthetic_readout_nonadditivity - K_storage_error >0; one-sided sign-flip, >75% favorable seeds, bootstrap lower bound >0, mean difference >0.05",
+    "H4_actual_and_synthetic_nonadditivity_match": "mean |actual_readout_nonadditivity-synthetic_readout_nonadditivity| <0.02 and >75% seeds <0.03"
+  },
+  "strong_success": "H1-H4 all pass",
+  "secondary_only": [
+    "dependence on angular separation",
+    "dependence on temporal gap",
+    "absolute actual and synthetic nonadditivity"
+  ],
+  "interpretation_rule": {
+    "all_pass": "multiple traces are stored in K approximately by linear superposition, while their joint operational effect is generated mainly by nonlinear readout/acoupling downstream of K",
+    "fail_H1": "storage itself is substantially nonlinear",
+    "H1_pass_H3_fail": "storage superposition is confirmed but operational interference is not"
+  },
+  "scope_warning": "operational interference is a dynamical readout effect; not evidence of a physical field, adaptive value, phenomenology, or consciousness",
+  "no_posthoc_retuning": true
+}

@@ -1,0 +1,52 @@
+{
+  "experiment": "loop_mode_drift_confirmatory_v1",
+  "status": "confirmatory after diagnostic seeds 156000-156007",
+  "new_seed_range": [
+    157000,
+    157063
+  ],
+  "prospective_history_rotation": {
+    "rule": "tuple selected by seed mod 4 before outcomes",
+    "tuples_deg": [
+      [
+        -135,
+        -45,
+        45
+      ],
+      [
+        -45,
+        45,
+        135
+      ],
+      [
+        45,
+        135,
+        -135
+      ],
+      [
+        135,
+        -135,
+        -45
+      ]
+    ]
+  },
+  "gain": "fixed gamma=1/sigma_max(T0) for all generations",
+  "branches": {
+    "INHERITED": "actual previous-generation output direction",
+    "REORIENTED": "same packet norm rotated to contemporaneous top right singular vector before each loop"
+  },
+  "primary_hypotheses": {
+    "H1_mode_capacity_stays_available": "mean sigma1 across generations 2-4 differs from generation 1 by <10% in absolute relative terms; >85% seeds have max relative deviation <20%",
+    "H2_inherited_packet_leaves_top_mode": "generation-1 alignment >0.90 mean, generation-2 alignment <0.40 mean, and >80% seeds have G2 alignment <0.50",
+    "H3_norm_preserving_reorientation_restores_gain": "mean REORIENTED actual gain over generations 2-4 >0.85, mean INHERITED gain over generations 2-4 <0.55, and >90% seeds have positive rescue averaged over G2-G4",
+    "H4_reorientation_prevents_multigeneration_extinction": "G4 REORIENTED norm relative to initial >0.70 mean while G4 INHERITED norm <0.15 mean; >90% seeds have REORIENTED > INHERITED"
+  },
+  "strong_success": "H1-H4 all pass",
+  "interpretation_rule": {
+    "all_pass": "with sufficient scalar gain, multigeneration failure is caused primarily by modal drift: the channel retains high-gain capacity, but each inherited packet rotates away from the next generation's amplifiable mode; norm-preserving reorientation prevents extinction",
+    "H3_H4_fail": "diagnostic rescue does not generalize",
+    "H1_fail": "carrier capacity itself changes materially, so pure modal-drift interpretation is incomplete"
+  },
+  "scope_warning": "external mode-tracking intervention in this reactor; not a native self-correcting mechanism or consciousness claim",
+  "no_posthoc_retuning": true
+}

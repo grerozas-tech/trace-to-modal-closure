@@ -1,0 +1,24 @@
+{
+  "experiment": "instance_geometry_moderates_closure_effect_diagnostic_v1",
+  "status": "diagnostic frozen after confirmatory heterogeneity observed, before structural moderator calculation",
+  "data_source": "64 confirmatory seeds 182000-182063",
+  "structural_descriptors": {
+    "left_subspace_distance": "||U_M U_M.T - U_P U_P.T||_F / sqrt(2k)",
+    "left_overlap": "mean cos^2 principal angles between col(M) and col(Pm.T)",
+    "right_ordered_alignment": "mean absolute diagonal of V_M.T V_P using SVD-ordered right singular vectors",
+    "right_rotation_distance": "||V_M.T V_P - I||_F / sqrt(2k)"
+  },
+  "effects": {
+    "xspace_effect": "closure(XSPACE_MATCH)-closure(NATIVE)",
+    "membasis_effect": "closure(MEMBASIS_MATCH)-closure(NATIVE)",
+    "both_effect": "closure(BOTH_MATCH)-closure(NATIVE)",
+    "factorial_interaction": "(BOTH-XSPACE)-(MEMBASIS-NATIVE)"
+  },
+  "prospective_diagnostic_predictions": [
+    "left_subspace_distance positively correlates with xspace_effect",
+    "left_overlap negatively correlates with xspace_effect",
+    "factorial_interaction is larger when both left and right geometries are initially mismatched",
+    "a simple seed-level structural model predicts intervention benefit better than a constant-mean model"
+  ],
+  "scope": "post-confirmatory heterogeneity diagnosis; exploratory, not confirmatory evidence"
+}

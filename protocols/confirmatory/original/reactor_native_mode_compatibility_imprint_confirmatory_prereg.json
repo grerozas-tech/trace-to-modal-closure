@@ -1,0 +1,25 @@
+{
+  "experiment": "native_mode_compatibility_imprint_confirmatory_v1",
+  "status": "confirmatory after diagnostic seeds 162000-162023",
+  "new_seed_range": [
+    163000,
+    163063
+  ],
+  "carrier": "G1 matched control carrier",
+  "packets": "equal-norm x packets at 0,22.5,45,67.5,90 degrees from v*, four random orthogonal directions per angle",
+  "probe": "3 neutral native steps with matched noise and suppressed evaluative credit",
+  "native_signal": "norm of packet-induced delta_m relative to matched control",
+  "primary_hypotheses": {
+    "H1_monotonic_compatibility_imprint": "mean within-seed Spearman rho between alignment^2 and ||delta_m|| >0.85; >90% seeds rho>0.75; bootstrap 95% lower bound >0.80",
+    "H2_aligned_writes_more_than_orthogonal": "mean aligned/orthogonal ||delta_m|| ratio >2.0; >85% seeds ratio>1.5; bootstrap lower bound >1.7",
+    "H3_effect_positive_seedwise": "aligned-minus-orthogonal ||delta_m|| >0 in >95% seeds",
+    "H4_equal_input_norm_sanity": "max relative spread of initial packet norm within each seed <1e-10"
+  },
+  "strong_success": "H1-H4 all pass",
+  "interpretation_rule": {
+    "all_pass": "equal-energy recurrent packets leave a native slow-memory imprint whose amplitude robustly reports compatibility with the stable high-gain mode; this is a compatibility imprint, not yet evidence of an explicit native scalar error computation",
+    "fail_H1_or_H2": "diagnostic compatibility imprint does not replicate"
+  },
+  "scope_warning": "native m-amplitude signature in this reactor; no phenomenology or consciousness claim",
+  "no_posthoc_retuning": true
+}

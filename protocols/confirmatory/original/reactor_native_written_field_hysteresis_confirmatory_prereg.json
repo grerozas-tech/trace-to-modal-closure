@@ -1,0 +1,30 @@
+{
+  "experiment": "native_written_field_hysteresis_confirmatory_v1",
+  "status": "confirmatory after diagnostics 118000-118007 and flat-control diagnostic 119000-119007 and native-write diagnostic 120000-120007",
+  "new_seed_range": [
+    121000,
+    121063
+  ],
+  "path": "physical C-experience amplitude 0->0.5->1->1.5->2->1.5->1->0.5->0",
+  "write_phase": "native C4 updates active; CYCLE receives lambda-scaled physical C perturbations; FLAT receives identical time/noise with lambda=0",
+  "readout": "after every station transplant slow/history package [m,theta,r,K,b,gh] into the same fast/current carrier and probe with the same P0 and identical noise",
+  "primary_hypotheses": {
+    "H1_common_present_hysteresis": "CYCLE-FLAT mean matched-lambda response separation >0.015; one-sided sign-flip with Holm, >75% favorable seeds, bootstrap lower bound >0",
+    "H2_r_path_memory": "CYCLE-FLAT matched-lambda r separation >0.010; one-sided sign-flip with Holm, >85% favorable seeds, bootstrap lower bound >0",
+    "H3_m_path_memory": "CYCLE-FLAT matched-lambda m separation >0.060; one-sided sign-flip with Holm, >75% favorable seeds, bootstrap lower bound >0",
+    "H4_nonreturn_after_cycle": "CYCLE-FLAT response mismatch at lambda=0 after full cycle >0.020; one-sided sign-flip with Holm, >75% favorable seeds, bootstrap lower bound >0"
+  },
+  "strong_success": "H1-H4 all pass",
+  "secondary_only": [
+    "K hysteresis above FLAT",
+    "theta and gh hysteresis",
+    "loop-area contrasts"
+  ],
+  "interpretation_rule": {
+    "all_pass": "when the field is written natively by experience, the same lambda has different stored/operational states on ascent and descent beyond temporal drift, and the system fails to return to its initial organization after the cycle",
+    "fail_H1": "native-write diagnostic common-present hysteresis does not replicate",
+    "H1_pass_H4_fail": "path dependence exists locally but no persistent nonreturn at the end of the cycle"
+  },
+  "scope_warning": "functional hysteresis/path dependence in this reactor; not thermodynamic hysteresis, biological memory, phenomenology, or consciousness",
+  "no_posthoc_retuning": true
+}

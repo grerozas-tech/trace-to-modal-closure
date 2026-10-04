@@ -1,0 +1,28 @@
+{
+  "experiment": "trace_weight_continuation_confirmatory_v1",
+  "status": "confirmatory after diagnostic seeds 114000-114007",
+  "new_seed_range": [
+    115000,
+    115063
+  ],
+  "construction": "K(lambda)=K_AB + lambda*dK_C, lambda=0..2 in steps of 0.125",
+  "common_control": "same current carrier and identical one-step future noise for all lambda values",
+  "event_definitions": {
+    "rank_event": "ordering of row-norm scores changes between adjacent lambda values",
+    "median_event": "identity of the two middle-ranked rows defining the median changes"
+  },
+  "primary_hypotheses": {
+    "H1_continuous_path": "mean maximum-adjacent-jump/path-length fraction <0.10 for both b and action, and >90% seeds have both fractions <0.12",
+    "H2_rank_events_amplify_curvature": "rank-event curvature advantage >0 for both b and action; one-sided sign-flip for each with Holm correction, >65% favorable seeds, bootstrap lower bounds >0",
+    "H3_median_events_strongly_amplify": "among seeds with at least one median event, at least 30 eligible seeds; median-event curvature advantage >0 for both b and action, >85% favorable, bootstrap lower bounds >0",
+    "H4_median_events_exceed_generic_rank_events": "among eligible seeds, median-event advantage - generic-rank-event advantage >0 for both b and action, >75% favorable, bootstrap lower bounds >0"
+  },
+  "strong_success": "H1-H4 all pass",
+  "interpretation_rule": {
+    "all_pass": "trace weighting is continuous but exhibits reproducible regime-like changes in sensitivity when the field's relative ordering—and especially its median reference—reorganizes",
+    "H1_H2_only": "continuous reweighting with generic rank sensitivity, but no special median-reference mechanism",
+    "fail_H1": "the path is too discontinuous for the continuous-reweighting interpretation"
+  },
+  "scope_warning": "functional readout geometry of this reactor only; not a physical phase transition, biology, phenomenology, or consciousness",
+  "no_posthoc_retuning": true
+}

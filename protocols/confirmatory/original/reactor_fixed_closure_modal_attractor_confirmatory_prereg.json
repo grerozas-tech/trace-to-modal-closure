@@ -1,0 +1,34 @@
+{
+  "experiment": "fixed_closure_modal_attractor_confirmatory_v1",
+  "status": "confirmatory after diagnostic seeds 187000-187007",
+  "new_seed_range": [
+    188000,
+    188063
+  ],
+  "fixed_kit": "C_dyn^A and gamma_A learned once in context A and held fixed during context-B test",
+  "angles_deg": [
+    22.5,
+    45,
+    67.5,
+    90
+  ],
+  "q_per_angle": 3,
+  "conditions": [
+    "UNCORRECTED",
+    "WRONG_SEED",
+    "FIXED_DYNAMIC"
+  ],
+  "primary_hypotheses": {
+    "H1_nonorthogonal_inputs_converge": "for FIXED_DYNAMIC, pooled seed-angle G4 compatible share over 22.5,45,67.5 has mean >0.95; >90% seed-angle cells >0.90; bootstrap lower bound >0.93",
+    "H2_hard_nonorthogonal_case_is_strongly_enriched": "at 67.5 degrees, mean G4 share minus initial share >0.70; >90% seeds positive; bootstrap lower bound >0.65",
+    "H3_fixed_closure_beats_uncorrected_selection": "pooled nonorthogonal G4 share advantage FIXED_DYNAMIC-UNCORRECTED >0.65; >95% seed-angle cells positive; bootstrap lower bound >0.60",
+    "H4_exact_orthogonal_control_is_not_immediately_attracted": "at generation 1, mean FIXED_DYNAMIC share for 90 degrees <0.10 while mean share for 67.5 degrees >0.75; >85% seeds have 67.5-degree share greater than 90-degree share"
+  },
+  "strong_success": "H1-H4 all pass",
+  "interpretation_rule": {
+    "all_pass": "selection plus fixed instance-specific closure and fixed critical gain creates a projective attractor: any substantial initial component along the dominant mode is progressively purified and sustained, whereas exact orthogonal input is not immediately mapped into that mode",
+    "H1_pass_H4_fail": "convergence exists but is not selective with respect to initial modal overlap"
+  },
+  "scope_warning": "attractor of the externally repaired relay, not a native autonomous attractor mechanism",
+  "no_posthoc_retuning": true
+}

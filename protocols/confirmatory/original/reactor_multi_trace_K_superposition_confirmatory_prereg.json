@@ -1,0 +1,47 @@
+{
+  "experiment": "multi_trace_K_superposition_confirmatory_v1",
+  "status": "confirmatory after diagnostics 102000-102007",
+  "new_seed_range": [
+    103000,
+    103063
+  ],
+  "conceptual_origin": "EL CAMPO DISTRIBUIDO DE TRAZAS",
+  "scope": "tests coexistence/superposition of two historical traces in native K; contextual weighting by present similarity was diagnostic-null and is NOT part of this confirmation",
+  "histories": {
+    "pairs": "four 90-degree-separated A,B pairs",
+    "orders": [
+      "A->B",
+      "B->A"
+    ],
+    "single_trace_references": "A-only and B-only histories matched to their exact temporal slots",
+    "dual_trace": "both A and B experienced",
+    "common_present": "same naive fast/current carrier before probe",
+    "probe": "all eight current perturbations, identical future noise"
+  },
+  "response": "12-step actions + dx + dr + dtheta, with new credit suppressed",
+  "analysis": {
+    "pair_fit": "fit dual response in the span of normalized A-only and B-only K responses",
+    "wrong_pair_control": "replace A/B references by single traces from the next unrelated pair",
+    "best_single_control": "compare pair-span R2 against the better of A-only or B-only fits",
+    "older_trace_fraction": "absolute coefficient of older trace divided by sum of absolute A/B coefficients"
+  },
+  "primary_hypotheses": {
+    "H1_high_dual_reconstruction": "mean correct K pair-span R2 >0.90 and >85% seeds exceed 0.85",
+    "H2_correct_pair_specificity": "correct-pair R2 - wrong-pair R2 >0; one-sided sign-flip, >75% favorable seeds, bootstrap lower bound >0, mean advantage >0.25",
+    "H3_both_traces_needed": "pair R2 - best-single R2 >0; one-sided sign-flip, >75% favorable seeds, bootstrap lower bound >0, mean gain >0.08",
+    "H4_older_trace_persists": "mean older-trace coefficient fraction >0.30 and >70% seeds exceed 0.15"
+  },
+  "strong_success": "H1-H4 all pass",
+  "secondary_only": [
+    "A->B versus B->A reconstruction symmetry",
+    "residual fraction beyond two-trace linear span",
+    "M and FULL coexistence diagnostics"
+  ],
+  "interpretation_rule": {
+    "all_pass": "native K can simultaneously preserve two distinct historical traces whose later response is well described by their superposition; the older trace remains functionally present despite recency",
+    "fail_H3": "dual response may be reconstructible without requiring both traces",
+    "fail_H4": "apparent superposition may be dominated by recency"
+  },
+  "epistemic_note": "does not establish contextual selection, adaptive value, or consciousness",
+  "no_posthoc_retuning": true
+}

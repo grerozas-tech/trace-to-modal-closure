@@ -1,0 +1,56 @@
+{
+  "experiment": "loop_half_operator_factorization_confirmatory_v1",
+  "status": "confirmatory after diagnostic seeds 152000-152007",
+  "new_seed_range": [
+    153000,
+    153063
+  ],
+  "prospective_history_rotation": {
+    "rule": "tuple selected by seed mod 4 before outcomes",
+    "tuples_deg": [
+      [
+        -135,
+        -45,
+        45
+      ],
+      [
+        -45,
+        45,
+        135
+      ],
+      [
+        45,
+        135,
+        -135
+      ],
+      [
+        135,
+        -135,
+        -45
+      ]
+    ]
+  },
+  "stages": [
+    "G0",
+    "G1"
+  ],
+  "primary_hypotheses": {
+    "H1_x_to_m_is_strong_bottleneck": "mean sigmaA <0.15 at both G0 and G1; >90% seeds <0.20 at both stages",
+    "H2_return_channel_is_much_stronger": "mean sigmaB/sigmaA >5 at both stages; >85% seeds have ratio >3 at both stages",
+    "H3_even_perfect_interface_contracts": "mean sigmaA*sigmaB <0.20 at both stages; >90% seeds <0.30 at both stages; bootstrap 95% upper bounds <0.30",
+    "H4_native_geometry_adds_further_loss": "mean sigmaT/(sigmaA*sigmaB) <0.75 at both stages; >80% seeds <0.85 at both stages"
+  },
+  "strong_success": "H1-H4 all pass",
+  "secondary_only": [
+    "top m-mode alignment between A output and B input",
+    "sigmaT absolute gain",
+    "G0-G1 changes"
+  ],
+  "interpretation_rule": {
+    "all_pass": "x->m writing is the dominant amplitude bottleneck; even a perfect lossless interface rotation cannot make the loop regenerative, and native interface geometry imposes additional loss on top of that intrinsic gain deficit",
+    "H3_fail": "latent perfect-interface regenerative capacity remains possible",
+    "H3_pass_H4_fail": "intrinsic attenuation is established but native geometry does not add measurable extra loss"
+  },
+  "scope_warning": "local causal factorization of this reactor only; not biology, phenomenology, or consciousness",
+  "no_posthoc_retuning": true
+}

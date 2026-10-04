@@ -1,0 +1,34 @@
+{
+  "experiment": "second_time_maladaptive_trace_confirmatory_v1",
+  "status": "confirmatory after diagnostic seeds 96000-96007",
+  "new_seed_range": [
+    97000,
+    97063
+  ],
+  "conceptual_origin": "joint intervention of LA SEGUNDA VEZ + EL PRESENTE COMUN",
+  "task": "first physical body perturbation P_phi, recovery, wash, then later SAME or ORTHOGONAL perturbation; no external reward or selector",
+  "critical_control": "NAIVE branch experiences identical timeline/noise but no first perturbation",
+  "common_present": "for mechanistic test, fast/current carrier is taken from NAIVE while learned slow/history package [m,theta,r,K,b,gh] is transplanted",
+  "credit_manipulation": "ablations occur only during first experience; later test has identical credit suppression across all branches",
+  "primary_hypotheses": {
+    "H1_common_negative_transfer": "INTACT common_same_gain < 0",
+    "H2_common_relation_specific_interference": "INTACT common_specificity < 0",
+    "H3_r_credit_rescue": "NO_R common_same_gain - INTACT common_same_gain > 0",
+    "H4_r_credit_reduces_specific_interference": "NO_R common_specificity - INTACT common_specificity > 0"
+  },
+  "tests": "one-sided sign-flip across 64 fresh seeds; Holm correction H1-H4",
+  "robustness": "each requires >60% favorable seeds and bootstrap 95% bound on preregistered side of zero",
+  "strong_success": "H1-H4 all pass",
+  "secondary_only": [
+    "natural continuous second encounter",
+    "NO_THETA versus INTACT",
+    "second-vs-first raw savings"
+  ],
+  "interpretation_rule": {
+    "all_pass": "the first experience leaves a relation-specific native imprint that worsens the later same perturbation in this ecology, and the effect is mediated primarily by r-credit",
+    "fail_H1_H2": "diagnostic negative transfer does not replicate",
+    "H1_H2_pass_H3_fail": "negative path dependence exists but r-credit mediation is not established"
+  },
+  "epistemic_note": "this would support path-dependent return and trace-mediated influence, not adaptive learning and not consciousness",
+  "no_posthoc_retuning": true
+}

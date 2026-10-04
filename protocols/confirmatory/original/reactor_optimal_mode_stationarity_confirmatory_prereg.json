@@ -1,0 +1,53 @@
+{
+  "experiment": "optimal_mode_stationarity_confirmatory_v1",
+  "status": "confirmatory after diagnostic seeds 158000-158023",
+  "new_seed_range": [
+    159000,
+    159063
+  ],
+  "history_rotation": {
+    "rule": "four A,B,C tuples assigned prospectively by seed mod 4",
+    "tuples_deg": [
+      [
+        -135,
+        -45,
+        45
+      ],
+      [
+        -45,
+        45,
+        135
+      ],
+      [
+        45,
+        135,
+        -135
+      ],
+      [
+        135,
+        -135,
+        -45
+      ]
+    ]
+  },
+  "mode_measurement": "top right singular vector of isolated x->m->x loop under the same seed-specific standardized audit noise reused at every generation",
+  "generations": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "primary_hypotheses": {
+    "H1_consecutive_mode_stationarity": "mean absolute cosine(v_g,v_g+1) >0.995 and >95% transitions >0.99",
+    "H2_small_angular_displacement": "mean sign-invariant angular displacement <2 degrees and bootstrap 95% upper bound <2.5 degrees",
+    "H3_small_projector_displacement": "mean Frobenius norm ||v_next v_next^T - v v^T||_F <0.05 and bootstrap upper bound <0.06",
+    "H4_capacity_stability": "mean absolute relative sigma1 change <0.05 and >90% transitions <0.10"
+  },
+  "strong_success": "H1-H4 all pass",
+  "interpretation_rule": {
+    "all_pass": "under neutral carrier evolution the optimal high-gain mode is effectively stationary; previously observed multigeneration failure is representational packet drift away from a stable mode, not substantial motion of the mode itself",
+    "fail_H1_or_H2": "the diagnostic stationarity does not replicate and genuine mode transport remains open"
+  },
+  "scope_warning": "stationarity only for this standardized neutral-evolution regime; does not rule out mode displacement under stronger contextual/history changes",
+  "no_posthoc_retuning": true
+}

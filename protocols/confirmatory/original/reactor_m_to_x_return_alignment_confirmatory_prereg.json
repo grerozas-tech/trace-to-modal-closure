@@ -1,0 +1,25 @@
+{
+  "experiment": "m_to_x_return_alignment_confirmatory_v1",
+  "status": "confirmatory after diagnostic seeds 146000-146007",
+  "new_seed_range": [
+    147000,
+    147063
+  ],
+  "carrier": "G1 phase-1 control carrier",
+  "return_operator": "24-step empirical finite-difference G_mx around the matched control",
+  "equal_norm_return_packet": "RETURN_ALIGNED_M = normalize(G_mx.T @ target_x) to the norm of NATIVE_M",
+  "primary_hypotheses": {
+    "H1_return_alignment_rescues_x": "RETURN_ALIGNED x target projection - NATIVE_M >0.005 on average; >85% seeds positive; bootstrap lower bound >0",
+    "H2_return_alignment_is_specific": "RETURN_ALIGNED - SCRAMBLED_RETURN x target projection >0.005 on average; >90% seeds positive; bootstrap lower bound >0",
+    "H3_write_alignment_moves_toward_return_channel": "WRITE_ALIGNED_M cosine to return-optimal direction - NATIVE_M cosine >0.15 on average; >80% seeds positive; bootstrap lower bound >0",
+    "H4_write_alignment_improves_full_return": "WRITE_ALIGNED_M x target projection - NATIVE_M >0.003 on average; >80% seeds positive; bootstrap lower bound >0"
+  },
+  "strong_success": "H1-H4 all pass",
+  "interpretation_rule": {
+    "all_pass": "G1 memory transfer is limited by geometric mismatch across both x->m writing and m->x return; correcting either alignment improves transfer, and the return channel has latent capacity hidden by native packet orientation",
+    "H1_H2_pass_H3_H4_fail": "return geometry matters, but prior x->m correction does not consistently move packets into the return-compatible subspace",
+    "fail_H1_or_H2": "diagnostic return-alignment rescue does not replicate"
+  },
+  "scope_warning": "external mechanism intervention in this reactor only; not biology, phenomenology, or consciousness",
+  "no_posthoc_retuning": true
+}

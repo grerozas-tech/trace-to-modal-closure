@@ -1,0 +1,44 @@
+{
+  "experiment": "fixed_instance_closure_multigeneration_confirmatory_v1",
+  "status": "confirmatory after diagnostic seeds 185000-185007",
+  "new_seed_range": [
+    186000,
+    186063
+  ],
+  "learn_context_A": {
+    "history_deg": [
+      -135,
+      -45,
+      45
+    ],
+    "generation": 0
+  },
+  "test_context_B": {
+    "history_deg": [
+      45,
+      135,
+      -135
+    ],
+    "generation": 1
+  },
+  "fixed_kit": "C_dyn^A, gamma_A=1/sigma1(T_A), v_A; learned once and never recomputed during the four-generation test",
+  "conditions": [
+    "UNCORRECTED",
+    "STATIC",
+    "WRONG_SEED",
+    "FIXED_DYNAMIC"
+  ],
+  "primary_hypotheses": {
+    "H1_fixed_dynamic_prevents_extinction": "mean G4 FIXED_DYNAMIC norm relative to initial >0.85; >90% seeds >0.70; bootstrap 95% lower bound >0.75",
+    "H2_fixed_dynamic_beats_uncorrected": "mean G4 FIXED_DYNAMIC-UNCORRECTED norm advantage >0.70; >95% seeds positive; bootstrap lower bound >0.60",
+    "H3_fixed_dynamic_is_specific": "mean G4 FIXED_DYNAMIC-max(STATIC,WRONG_SEED) advantage >0.60; >90% seeds positive; bootstrap lower bound >0.50",
+    "H4_fixed_dynamic_preserves_modal_alignment": "mean post-closure abs cosine with v_A over generations 1-4 >0.99; >90% seeds have minimum generation alignment >0.98"
+  },
+  "strong_success": "H1-H4 all pass",
+  "interpretation_rule": {
+    "all_pass": "a single instance-specific dynamic closure map plus a single learned critical gain is sufficient to replace per-generation oracle reorientation and sustain multigeneration relay across a distinct context",
+    "H1_pass_H4_fail": "amplitude is sustained without stable modal closure; mechanism differs from diagnostic interpretation"
+  },
+  "scope_warning": "external fixed repair learned once; reactor does not natively estimate or apply this map",
+  "no_posthoc_retuning": true
+}

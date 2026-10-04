@@ -1,0 +1,33 @@
+{
+  "experiment": "contextual_trace_reactivation_confirmatory_v1",
+  "status": "confirmatory after diagnostic seeds 100000-100007",
+  "new_seed_range": [
+    101000,
+    101063
+  ],
+  "conceptual_origin": "EL CAMPO DE TRAZAS",
+  "task": "8 prior perturbation histories x 8 current perturbation probes from an exactly common fast/current carrier",
+  "naive_subtraction": "for each current probe subtract naive response to same probe",
+  "interaction": "I_hp = D_hp - history_main - present_main + grand_mean",
+  "probe_credit": "suppressed identically during 12-step readout",
+  "primary_hypotheses": {
+    "H1_nonadditive_field": "FULL interaction_fraction >0.50 on average and >80% seeds exceed 0.45",
+    "H2_R_amplitude_dominance": "R interaction norm / (M+K+GH interaction norms) >100 on average and >80% seeds exceed 50",
+    "H3_K_relative_geometry": "K relative-angle RSA - 64-label-shuffle mean >0; one-sided sign-flip, >75% favorable seeds, bootstrap lower bound >0, and mean raw K RSA >0.20",
+    "H4_M_relative_geometry": "M relative-angle RSA - 64-label-shuffle mean >0; one-sided sign-flip, >75% favorable seeds, bootstrap lower bound >0, and mean raw M RSA >0.18"
+  },
+  "strong_success": "H1-H4 all pass",
+  "secondary_only": [
+    "FULL relative-angle RSA",
+    "R relative-angle RSA",
+    "GH relative-angle RSA",
+    "norm congruence slope versus cos(phiH-phiP)"
+  ],
+  "interpretation_rule": {
+    "all_pass": "the trace field is contextually reactivated: history and present interact non-additively; r carries most modulation amplitude while K and m preserve relation-of-history-to-present geometry",
+    "H1_only": "contextual modulation exists but distributed geometric architecture is not established",
+    "fail_H1": "diagnostic interaction does not replicate"
+  },
+  "scope_warning": "selective reactivation does not imply adaptive value, phenomenology, or consciousness",
+  "no_posthoc_retuning": true
+}

@@ -1,0 +1,29 @@
+{
+  "experiment": "m_compatibility_imprint_causal_decomposition_confirmatory_v1",
+  "status": "confirmatory after diagnostic seeds 164000-164007",
+  "new_seed_range": [
+    165000,
+    165063
+  ],
+  "sensing": "equal-norm x packets spanning 0..90 degrees from v*, 3 neutral steps",
+  "return": "24 neutral steps after transplanting only manipulated m signal into a common post-sensing control carrier",
+  "conditions": {
+    "NATIVE": "native m amplitude and direction",
+    "AMP_ONLY": "native amplitude, common aligned-reference direction",
+    "DIR_ONLY": "common aligned-reference amplitude, native direction"
+  },
+  "primary_hypotheses": {
+    "H1_native_return_tracks_compatibility": "mean within-seed Spearman(alignment^2, returned x projection) >0.90; >90% seeds >0.80",
+    "H2_amplitude_is_causally_sufficient": "AMP_ONLY mean Spearman >0.85; >90% seeds >0.75; aligned-minus-orthogonal return contrast >0.40 mean",
+    "H3_direction_is_causally_sufficient": "DIR_ONLY mean Spearman >0.85; >90% seeds >0.75; aligned-minus-orthogonal return contrast >0.70 mean",
+    "H4_both_channels_positive_seedwise": "AMP_ONLY and DIR_ONLY aligned-minus-orthogonal contrasts are both >0 in >95% seeds"
+  },
+  "strong_success": "H1-H4 all pass",
+  "interpretation_rule": {
+    "all_pass": "the native m compatibility imprint is multiplexed: both its amplitude and its direction independently carry compatibility information forward into later x dynamics",
+    "H2_only": "compatibility is carried mainly by m amplitude",
+    "H3_only": "compatibility is carried mainly by m geometry"
+  },
+  "scope_warning": "causal decomposition of m-mediated compatibility in this reactor; not evidence of an explicit native scalar error variable, phenomenology, or consciousness",
+  "no_posthoc_retuning": true
+}

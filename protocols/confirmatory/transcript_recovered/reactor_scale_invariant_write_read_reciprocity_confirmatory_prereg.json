@@ -1,0 +1,21 @@
+{
+  "experiment": "scale_invariant_write_read_reciprocity_confirmatory_v1",
+  "status": "confirmatory after diagnostic seeds 179000-179007",
+  "new_seed_range": [180000, 180063],
+  "conditions": ["NATIVE", "RECIPROCAL", "PERMUTED", "ORTHOGONAL"],
+  "normalization": "all closure metrics use T_tilde=T/sigma1(T); RECIPROCAL/PERMUTED/ORTHOGONAL M matrices have equal Frobenius norm and identical singular values",
+  "primary_hypotheses": {
+    "H1_reciprocity_improves_input_output_alignment": "mean RECIPROCAL |u1.v1| minus max(PERMUTED,ORTHOGONAL) >0.05; >75% seeds positive; bootstrap 95% lower bound >0",
+    "H2_reciprocity_improves_normalized_inherited_closure": "mean RECIPROCAL closure gain minus max(PERMUTED,ORTHOGONAL) >0.04; >75% seeds positive; bootstrap lower bound >0",
+    "H3_reciprocity_improves_multistep_retention": "mean RECIPROCAL third-pass normalized gain minus max(PERMUTED,ORTHOGONAL) >0.025; >75% seeds positive; bootstrap lower bound >0",
+    "H4_reciprocity_beats_native_closure": "mean RECIPROCAL closure gain minus NATIVE >0.04; >75% seeds positive; bootstrap lower bound >0"
+  },
+  "strong_success": "H1-H4 all pass",
+  "secondary_only": ["sigma1/spectral_radius", "normalized non-normality", "absolute sigma1"],
+  "interpretation_rule": {
+    "all_pass": "write-read reciprocity specifically improves scale-invariant modal closure beyond controls that preserve matrix norm and singular values; non-reciprocal inscription/return geometry is a causal structural contributor to the modal mismatch",
+    "fail_H1_or_H2": "diagnostic reciprocity-specific closure does not replicate"
+  },
+  "scope_warning": "surgical architectural intervention; reciprocity improves but need not fully close the loop",
+  "no_posthoc_retuning": true
+}

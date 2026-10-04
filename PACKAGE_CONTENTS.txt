@@ -1,0 +1,25 @@
+Trace to Modal Closure — v1.0.0 package contents
+
+Top-level scientific components:
+- paper/: manuscript, Supplement, LaTeX, bibliography, figures, figure generator.
+- code/original/: recovered original base reactor.
+- code/transcript_recovered/: verbatim late-stage transcript code.
+- code/reference_reconstruction/: validated replacements for three unarchived transient dependencies.
+- code/portable/: repository-relative executable late-stage chain.
+- code/posthoc_audits/: explicitly post-confirmatory robustness scripts.
+- protocols/: frozen confirmatory/diagnostic design records.
+- results/main/: primary main-text results.
+- results/supplementary/: negative, ablation, and supplementary results.
+- results/robustness/: post-confirmatory robustness outputs.
+- provenance/: evidence audit, recovery metadata, source hashes, and manifests.
+
+Raw conversation exports are not distributed publicly.
+
+Counts before generated manifest files:
+- paper: 35
+- code: 26
+- protocols: 33
+- results: 134
+- provenance: 8
+- top-level files: 22
+- files at this stage: 258

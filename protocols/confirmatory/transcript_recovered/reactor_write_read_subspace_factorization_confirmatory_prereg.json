@@ -1,0 +1,28 @@
+{
+  "experiment": "write_read_subspace_factorization_confirmatory_v1",
+  "status": "confirmatory after diagnostic seeds 181000-181007",
+  "new_seed_range": [182000, 182063],
+  "conditions": {
+    "NATIVE": "U_M S_M V_M.T",
+    "XSPACE_MATCH": "U_P S_M V_M.T",
+    "MEMBASIS_MATCH": "U_M S_M V_P.T",
+    "BOTH_MATCH": "U_P S_M V_P.T"
+  },
+  "matched_structure": "all M variants share exactly the native singular values and Frobenius norm",
+  "primary_metric": "normalized inherited closure gain ||(T/sigma1)u1||",
+  "primary_hypotheses": {
+    "H1_xspace_match_improves_closure": "mean XSPACE_MATCH-NATIVE >0.08; >80% seeds positive; bootstrap 95% lower bound >0",
+    "H2_memory_basis_alone_is_weak": "absolute mean MEMBASIS_MATCH-NATIVE <0.04 and >75% seeds have absolute difference <0.08",
+    "H3_positive_factorial_interaction": "mean [(BOTH-XSPACE)-(MEMBASIS-NATIVE)] >0.08; >80% seeds positive; bootstrap lower bound >0",
+    "H4_both_match_produces_strong_modal_alignment": "mean BOTH_MATCH |u1.v1| >0.55; >75% seeds >0.45; bootstrap lower bound >0.50"
+  },
+  "strong_success": "H1-H4 all pass",
+  "secondary_only": ["third-pass normalized gain", "sigma1/spectral_radius", "normalized non-normality", "absolute sigma1"],
+  "interpretation_rule": {
+    "all_pass": "modal closure is controlled primarily by matching the return x-subspace to the write-derived subspace, with a strong additional interaction from memory-coordinate basis alignment once that subspace match is present",
+    "fail_H1": "x-space subspace hypothesis does not replicate",
+    "H1_pass_H3_fail": "subspace match matters, but memory-basis synergy is not robust"
+  },
+  "scope_warning": "surgical structural decomposition; not a native learned repair",
+  "no_posthoc_retuning": true
+}

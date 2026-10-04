@@ -1,0 +1,39 @@
+{
+  "experiment": "distributed_trace_architecture_confirmatory_v1",
+  "status": "confirmatory after diagnostics 98000-98007 and 98100-98107",
+  "new_seed_range": [
+    99000,
+    99063
+  ],
+  "conceptual_origin": "joint phenomenon/mechanism intervention from LA SEGUNDA VEZ and EL PRESENTE COMUN",
+  "task": "8 first perturbation histories with identical training noise; later fixed P0 from an exactly common fast/current present",
+  "history_package": [
+    "m",
+    "theta",
+    "r",
+    "K",
+    "b",
+    "gh"
+  ],
+  "response": "12-step vector of actions, dx, dr, dtheta with new credit suppressed during test",
+  "primary_hypotheses": {
+    "H1_causal_history_imprint": "INTACT mean response norm > 0.03 and >80% seeds exceed 0.02",
+    "H2_R_amplitude_dominance": "per-seed R-only response norm / (M-only norm + GH-only norm) > 5 on average and >75% seeds exceed 3",
+    "H3_K_metric_trace": "K-only response RSA exceeds its 64-label-shuffle mean; one-sided sign-flip, >75% favorable seeds, bootstrap lower bound >0; additionally mean K RSA >0.65",
+    "H4_R_masks_metric_geometry": "NO_R full-package response RSA - INTACT full-package response RSA >0; one-sided sign-flip, >75% favorable seeds, bootstrap lower bound >0, mean difference >0.45"
+  },
+  "secondary_only": [
+    "M-only RSA and norm",
+    "theta-only RSA and norm",
+    "GH-only RSA and norm",
+    "INTACT RSA versus label shuffle"
+  ],
+  "strong_success": "H1-H4 all pass",
+  "interpretation_rule": {
+    "all_pass": "the later response carries a distributed historical trace: r contributes most amplitude but degrades metric organization, while low-amplitude components such as K preserve relation geometry",
+    "H1_only": "path-dependent second response exists but distributed trace architecture is not established",
+    "fail_H1": "diagnostic common-present history imprint does not replicate"
+  },
+  "scope_warning": "metric trace does not imply adaptive value or consciousness; K geometry may be low amplitude and externally audited",
+  "no_posthoc_retuning": true
+}

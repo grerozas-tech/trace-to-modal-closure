@@ -1,0 +1,33 @@
+{
+  "experiment": "K_readout_nonlinearity_localization_confirmatory_v1",
+  "status": "confirmatory after independent diagnostics 108000-108007 and 109000-109015",
+  "new_seed_range": [
+    110000,
+    110063
+  ],
+  "architecture": "native K readout from common current state; synthetic K is exactly additive",
+  "stages": [
+    "K",
+    "row_norm_scores",
+    "median_centered_scores",
+    "sigmoid_b",
+    "Jb_b",
+    "z",
+    "x",
+    "action"
+  ],
+  "primary_hypotheses": {
+    "H1_norm_introduces_nonlinearity": "mean scores relative residual >0.04 and >75% seeds exceed 0.02",
+    "H2_relative_centering_amplifies": "centered relative residual - scores relative residual >0; one-sided sign-flip, >75% favorable seeds, bootstrap lower bound >0, and mean amplification >0.02",
+    "H3_sigmoid_adds_little": "mean |b relative residual - centered relative residual| <1e-4 and >90% seeds below 1e-3",
+    "H4_additive_b_collapses_action_nonlinearity": "mean native action relative residual - additive-b action relative residual >0.05, >90% favorable seeds, bootstrap lower bound >0, AND mean additive-b action residual <1e-4"
+  },
+  "strong_success": "H1-H4 all pass",
+  "interpretation_rule": {
+    "all_pass": "multi-trace nonadditivity is generated mainly during relational readout of K: row norms introduce curvature, median-relative comparison amplifies it, and making b additive causally collapses downstream action nonadditivity",
+    "H1_H2_pass_H4_fail": "nonlinearity is localized descriptively but causal bottleneck at b representation is not established",
+    "fail_H2": "median-relative amplification does not replicate"
+  },
+  "scope_warning": "mechanism localization in this reactor only; not a claim about biological memory, physical fields, phenomenology, or consciousness",
+  "no_posthoc_retuning": true
+}

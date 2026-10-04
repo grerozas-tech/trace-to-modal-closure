@@ -1,0 +1,1292 @@
+[
+  {
+    "path": ".gitignore",
+    "size_bytes": 82,
+    "sha256": "f0bac5d0022adb1a8532600238b365df9dfa808ce592a9fb2eef09b080906084"
+  },
+  {
+    "path": ".zenodo.json",
+    "size_bytes": 1260,
+    "sha256": "6ba0ee08662a82385ffa2462c6fe10deadec5f69816b33bb11740144fecca951"
+  },
+  {
+    "path": "AI_USE_DISCLOSURE.md",
+    "size_bytes": 944,
+    "sha256": "365d49ebf95a4fa3f231b8f57e09dcd938189e691cd322d567107c5e118562ea"
+  },
+  {
+    "path": "CHANGELOG.md",
+    "size_bytes": 1130,
+    "sha256": "a2030e4de55c8f38b687fb927778b6f1de1453755d246da8f124a0c2b81ffe0f"
+  },
+  {
+    "path": "CITATION.cff",
+    "size_bytes": 700,
+    "sha256": "983dce87b8d3f12f1d7f65eddb1c7864a38afc30e7630e125de36cca45f597bf"
+  },
+  {
+    "path": "ENVIRONMENT.md",
+    "size_bytes": 413,
+    "sha256": "d19134fd55f1c6f030014e6466a243ebd8ad00a57fb83d88e909b2fad27788d9"
+  },
+  {
+    "path": "EXECUTION_COVERAGE.md",
+    "size_bytes": 7971,
+    "sha256": "e6b549981a624c8ac8e047948dda554224812991f58d5ee5adab242e0ef8b139"
+  },
+  {
+    "path": "LICENSE",
+    "size_bytes": 1082,
+    "sha256": "0eca8eca6b65568ee9ca66382077f07fdc01f54281a0796a80caa966e2744d12"
+  },
+  {
+    "path": "LICENSE-CODE",
+    "size_bytes": 1082,
+    "sha256": "0eca8eca6b65568ee9ca66382077f07fdc01f54281a0796a80caa966e2744d12"
+  },
+  {
+    "path": "LICENSE-CONTENT.md",
+    "size_bytes": 651,
+    "sha256": "240fed8b924823d31b4a8431c9b6efdcf64a1efc112f2f45ba6b2f2ebb8fe8a0"
+  },
+  {
+    "path": "PACKAGE_CONTENTS.txt",
+    "size_bytes": 1062,
+    "sha256": "fa1de1cce62f4c4936e1c7e4082c353a3598c3768c1e88f12b404d0786551aec"
+  },
+  {
+    "path": "POSTCONFIRMATORY_ROBUSTNESS.md",
+    "size_bytes": 1416,
+    "sha256": "9fd9d71c5418c246b6a896b35bdde9ffa18c110f752cc04da45c57b457e02965"
+  },
+  {
+    "path": "PROVENANCE.md",
+    "size_bytes": 3820,
+    "sha256": "c2bc365c664b173ac740a4dab2e906aa87e8efb770072bd4f554f7aab8f99409"
+  },
+  {
+    "path": "README.md",
+    "size_bytes": 8027,
+    "sha256": "c6cf26888e03fe7310125d2dbf81b87559f0138fa38fd83957537dc78c2522d1"
+  },
+  {
+    "path": "RECONSTRUCTION_VALIDATION.md",
+    "size_bytes": 2414,
+    "sha256": "61c56da771eb24d235e7131cc1dc5f88c954acb286f9986dd4a1a31bde56a29d"
+  },
+  {
+    "path": "RECOVERY_STATUS.md",
+    "size_bytes": 2921,
+    "sha256": "014ba548eb34c3e41e494d51676501af30535a0c535a0d103ca99a1558d2bff0"
+  },
+  {
+    "path": "RELEASE_CHECKLIST.md",
+    "size_bytes": 1119,
+    "sha256": "270c8a97f3ccbf256d543cf096f5a89ad2edb56496960a22645a426be65bf6cb"
+  },
+  {
+    "path": "RELEASE_NOTES.md",
+    "size_bytes": 3071,
+    "sha256": "89e964137ba9c7088479b1f0782672a1c08b3942be9463ca7abf25c3f81a50b4"
+  },
+  {
+    "path": "SMOKE_TEST.md",
+    "size_bytes": 1282,
+    "sha256": "5438bc909967498fa4852969c74dfe0eaf940541eea51f2d702bf9aa2cfd8987"
+  },
+  {
+    "path": "UPLOAD_TO_GITHUB.md",
+    "size_bytes": 880,
+    "sha256": "5a35badb6f26ce46807e59d0d387086c66592274c6beecf1664115477d034e37"
+  },
+  {
+    "path": "code/README.md",
+    "size_bytes": 930,
+    "sha256": "f6904f3ad713ae0b7bac2fe03b4bdf6cec3a1f0823ed3d1f2aa1dc7e34cd987f"
+  },
+  {
+    "path": "code/original/reactor_v012.py",
+    "size_bytes": 10755,
+    "sha256": "11041fdf22bf431664c466899b6f4b0afa91cccf7ad394ae14f34b2462a92327"
+  },
+  {
+    "path": "code/portable/README.md",
+    "size_bytes": 1041,
+    "sha256": "364974fe8b2bfda4ae30dbde182521c94b71a436b613125f14d11a9de7ef6980"
+  },
+  {
+    "path": "code/portable/reactor_dynamic_half_channel_closure_map_diagnostic.py",
+    "size_bytes": 3571,
+    "sha256": "445a78d51dea3d604341d2a5a471e650cf550687059659e14ed51cb521422d82"
+  },
+  {
+    "path": "code/portable/reactor_fixed_closure_modal_attractor_diagnostic.py",
+    "size_bytes": 3853,
+    "sha256": "9df6e5167450388d4ad7f04226405bba86d0a3c080ad4d85b9f0d1a25b2c95ab"
+  },
+  {
+    "path": "code/portable/reactor_fixed_instance_closure_multigeneration_diagnostic.py",
+    "size_bytes": 5067,
+    "sha256": "8fa7641664118b5b17256c3f55393e51dc4b4445dfe1da397d372e63f6f9b08f"
+  },
+  {
+    "path": "code/portable/reactor_full_loop_operator_gain_diagnostic.py",
+    "size_bytes": 11621,
+    "sha256": "cd202211aaf3baad956a262ecdadeb5c6cac49ee60e514799d98c9d9876dd5f3"
+  },
+  {
+    "path": "code/portable/reactor_loop_half_operator_factorization_diagnostic.py",
+    "size_bytes": 5659,
+    "sha256": "9de0700b6bd143e8c89d6f0d15e0beaced4a3e050024b531f6b50704d78003e9"
+  },
+  {
+    "path": "code/portable/reactor_loop_input_output_mode_mismatch_diagnostic.py",
+    "size_bytes": 2368,
+    "sha256": "6c7ecdffbcd4feb43d3885dce3dfbb57aca0a6fec17fbdac1a37612e2c7ab0f1"
+  },
+  {
+    "path": "code/portable/reactor_native_modal_closure_coproduct_diagnostic.py",
+    "size_bytes": 4812,
+    "sha256": "5f28aadd07c7f84c51a0559953214f05bb44a725a2caeedb1fad38408c4c29f4"
+  },
+  {
+    "path": "code/portable/reactor_native_mode_competition_diagnostic.py",
+    "size_bytes": 4725,
+    "sha256": "b49469e96bb0c21b9724e59a8f198ff8c42e069626a5c11dbd8614138cc8ad09"
+  },
+  {
+    "path": "code/portable/reactor_relational_rotation.py",
+    "size_bytes": 3430,
+    "sha256": "b244668f762bd5ef07e9afe6506e71c0d5551728fbbf1117f7b462b89e56cb78"
+  },
+  {
+    "path": "code/portable/reactor_v012.py",
+    "size_bytes": 10755,
+    "sha256": "11041fdf22bf431664c466899b6f4b0afa91cccf7ad394ae14f34b2462a92327"
+  },
+  {
+    "path": "code/posthoc_audits/README.md",
+    "size_bytes": 700,
+    "sha256": "17448d0307d490b4ed604632d9f3782e74be8352c3fe306bd4f0f2687133b9e9"
+  },
+  {
+    "path": "code/posthoc_audits/audit_fixed_dynamic_no_renorm.py",
+    "size_bytes": 2759,
+    "sha256": "8f8664c86b1296689439ce8921112ec1bfb5b41f8a740ed6f98d86a7be1b523c"
+  },
+  {
+    "path": "code/posthoc_audits/audit_multicontext_transfer.py",
+    "size_bytes": 3128,
+    "sha256": "b51a564632b55d72dfb58d765bf548beac91ab98d81cafc11bf6e9905b998fdb"
+  },
+  {
+    "path": "code/posthoc_audits/audit_operator_epsilon_sensitivity.py",
+    "size_bytes": 2520,
+    "sha256": "9deb4ddf55cfed239e5c985bf13df48484bf46eb3f72000228c0fc81b1c4d74b"
+  },
+  {
+    "path": "code/reference_reconstruction/reactor_full_loop_operator_gain_diagnostic.py",
+    "size_bytes": 11621,
+    "sha256": "cd202211aaf3baad956a262ecdadeb5c6cac49ee60e514799d98c9d9876dd5f3"
+  },
+  {
+    "path": "code/reference_reconstruction/reactor_loop_half_operator_factorization_diagnostic.py",
+    "size_bytes": 5659,
+    "sha256": "9de0700b6bd143e8c89d6f0d15e0beaced4a3e050024b531f6b50704d78003e9"
+  },
+  {
+    "path": "code/reference_reconstruction/reactor_relational_rotation.py",
+    "size_bytes": 3430,
+    "sha256": "b244668f762bd5ef07e9afe6506e71c0d5551728fbbf1117f7b462b89e56cb78"
+  },
+  {
+    "path": "code/transcript_recovered/reactor_dynamic_half_channel_closure_map_diagnostic.py",
+    "size_bytes": 3481,
+    "sha256": "cdb0921c563204e263d4704a2c07c6312d9c8a0d4784b165e047018c8b7f9a4c"
+  },
+  {
+    "path": "code/transcript_recovered/reactor_fixed_closure_modal_attractor_diagnostic.py",
+    "size_bytes": 3763,
+    "sha256": "d9ce0e5f55d47da1ff6b35e9bfa51825c7914588333a41b41a9dc6a09573efa3"
+  },
+  {
+    "path": "code/transcript_recovered/reactor_fixed_instance_closure_multigeneration_diagnostic.py",
+    "size_bytes": 4977,
+    "sha256": "8ae2afdb05a2880acce3a148f2407a8635a8b9e882b7cc0870de8874bef622b9"
+  },
+  {
+    "path": "code/transcript_recovered/reactor_loop_input_output_mode_mismatch_diagnostic.py",
+    "size_bytes": 2278,
+    "sha256": "d561e65378915fc7276a790a412cdd997c83932fcb34ae18d47599a7aeb55275"
+  },
+  {
+    "path": "code/transcript_recovered/reactor_native_modal_closure_coproduct_diagnostic.py",
+    "size_bytes": 4722,
+    "sha256": "45ecd121e1c999988e92813587b27802d1005fe4c6c52bb998291553e77a64e2"
+  },
+  {
+    "path": "code/transcript_recovered/reactor_native_mode_competition_diagnostic.py",
+    "size_bytes": 4635,
+    "sha256": "df3762b616ef995e881793dd3dbfa6e065719c8b2a10fabd67b227a6f7e422c6"
+  },
+  {
+    "path": "paper/README.md",
+    "size_bytes": 1054,
+    "sha256": "647f53066c0040ca509aea4f6e3cacf53c100dea0fbffca07f630037524b4483"
+  },
+  {
+    "path": "paper/figures/fig1_history_trace.pdf",
+    "size_bytes": 20387,
+    "sha256": "1b115a97c9308630906cbeb11255cbfc6101fac39f60896a84ced6e1ba616127"
+  },
+  {
+    "path": "paper/figures/fig1_history_trace.png",
+    "size_bytes": 101770,
+    "sha256": "338eb28a00df6070b423664404308ae12d3a266cf94f85b6527b142159802dd7"
+  },
+  {
+    "path": "paper/figures/fig2_storage_readout.pdf",
+    "size_bytes": 25131,
+    "sha256": "058cfae7b45dc5b89e39be929ab4e1af58a21726c9ae0c2519a7e4e06b4c30be"
+  },
+  {
+    "path": "paper/figures/fig2_storage_readout.png",
+    "size_bytes": 110436,
+    "sha256": "642ecc0e3bd08ed173ce1edfbc11f690e71f2d717bfbbc648bb87d3bb36a212d"
+  },
+  {
+    "path": "paper/figures/fig3_reentry.pdf",
+    "size_bytes": 32947,
+    "sha256": "6e86d88d49fc880f744c056791bcb06ab8123cddf938fcd721bb6cfe35bdc2a6"
+  },
+  {
+    "path": "paper/figures/fig3_reentry.png",
+    "size_bytes": 191934,
+    "sha256": "069ba7a0ec409b2b975efdc76366577767766c3e7cc7de8f564ddcdcb2137b62"
+  },
+  {
+    "path": "paper/figures/fig4_selection.pdf",
+    "size_bytes": 26019,
+    "sha256": "d602f8748c005a730a3ac36fede6bfabde0c23b231a4a654c04039c4e4adc10f"
+  },
+  {
+    "path": "paper/figures/fig4_selection.png",
+    "size_bytes": 158124,
+    "sha256": "9b46e368fbc0764fb1d395ad0c2b22cacdd2fb229b2f50b5a80b912b1f9c9f0b"
+  },
+  {
+    "path": "paper/figures/fig5_closure.pdf",
+    "size_bytes": 32034,
+    "sha256": "ac84205d7e89f11b8e26249686dc66538d7c5c1a638004ecad69850cd96a639f"
+  },
+  {
+    "path": "paper/figures/fig5_closure.png",
+    "size_bytes": 134638,
+    "sha256": "43a77b66f0baddc490211318a5e21067d8440627f2b1bcf13ba6c7c2c8c69af1"
+  },
+  {
+    "path": "paper/figures/fig6_regeneration.pdf",
+    "size_bytes": 32786,
+    "sha256": "870f5eec906978798201316e34d86aeedae4f8d17c87ea4edd76543017e5e46c"
+  },
+  {
+    "path": "paper/figures/fig6_regeneration.png",
+    "size_bytes": 176629,
+    "sha256": "2ca54e195ed88c228e96afadde68bc19846c5573f759066f6326c2b16677f2f8"
+  },
+  {
+    "path": "paper/figures/figS1_maladaptive_null.pdf",
+    "size_bytes": 12030,
+    "sha256": "3aef749fed819bb278425f804af204d00598096b36adeb646d07a029721fd23c"
+  },
+  {
+    "path": "paper/figures/figS1_maladaptive_null.png",
+    "size_bytes": 52307,
+    "sha256": "68a9718b2fee0f9e2919ade8d7c72beec623c6d580540c592c6a8726646ec840"
+  },
+  {
+    "path": "paper/figures/figS2_continuation.pdf",
+    "size_bytes": 14267,
+    "sha256": "a8614a8d2281996f7b02716ccb95950a2f455383536537a5c5052cbdd96526d6"
+  },
+  {
+    "path": "paper/figures/figS2_continuation.png",
+    "size_bytes": 48503,
+    "sha256": "534651bb0b3898cf9ae0b6c769e4476e48d809c1035529dcd39f6b6d8ec5b4b1"
+  },
+  {
+    "path": "paper/figures/figS3_turn_ablation.pdf",
+    "size_bytes": 12953,
+    "sha256": "bc945afd0b44a631e90f7f59dd7995e0ea8e86b2bbf95e306cefaaff43566675"
+  },
+  {
+    "path": "paper/figures/figS3_turn_ablation.png",
+    "size_bytes": 37609,
+    "sha256": "79e8555aaad74521a926c396a128e2584a16d50b3ae76dfd6508fe366c4314ba"
+  },
+  {
+    "path": "paper/figures/figS4_partial_alignment.pdf",
+    "size_bytes": 12456,
+    "sha256": "68e9b6f93130f0b14a562d8b09481a9c50e4e7356b1139ced24a8271e620d5fd"
+  },
+  {
+    "path": "paper/figures/figS4_partial_alignment.png",
+    "size_bytes": 43941,
+    "sha256": "c8882bed87824330701bd381c12896ab00709eb0188eda8f6b8c749e9da8401d"
+  },
+  {
+    "path": "paper/figures/figS5_history_stationarity.pdf",
+    "size_bytes": 13746,
+    "sha256": "178aee0ad39c31917d5781e2c21a4142cd9b9d832384e512aa5b9842b11f2950"
+  },
+  {
+    "path": "paper/figures/figS5_history_stationarity.png",
+    "size_bytes": 53854,
+    "sha256": "0a59bda98ab448f2845c3b392291a5e957188cafddd7b54b6bc5b1acad7da8a8"
+  },
+  {
+    "path": "paper/figures/figS6_compatibility.pdf",
+    "size_bytes": 13473,
+    "sha256": "b6a1feb9d81185220a36c97ef6777f6fc11ca22d0038d035bf208c957a73d866"
+  },
+  {
+    "path": "paper/figures/figS6_compatibility.png",
+    "size_bytes": 37502,
+    "sha256": "501cc919e7764fbab9582e84451216179010db29a9c53b20d79fee9cb6678166"
+  },
+  {
+    "path": "paper/figures/figS7_common_vs_instance.pdf",
+    "size_bytes": 15034,
+    "sha256": "52431e29239dad499a402596510b1f6e180519ca4ec490fa172e392bb00467ca"
+  },
+  {
+    "path": "paper/figures/figS7_common_vs_instance.png",
+    "size_bytes": 57827,
+    "sha256": "6cd5307eff76e4a06e56b80d3c57132881892e552bbbbf9b94d1b5650fe1a35e"
+  },
+  {
+    "path": "paper/figures/figS8_static_failures.pdf",
+    "size_bytes": 19742,
+    "sha256": "f7a89e353795cb43f5d0e3db95e56d7fcc8060b7560bc68bafa6c79dc3f3545d"
+  },
+  {
+    "path": "paper/figures/figS8_static_failures.png",
+    "size_bytes": 81782,
+    "sha256": "2feb9ab57463d861e2f1accd2b70a24c8fdff296db7f38acb966f95a17368225"
+  },
+  {
+    "path": "paper/figures/make_figures.py",
+    "size_bytes": 20004,
+    "sha256": "f1e74ac028b388a984f47dd66ff20520573be37e900274703cd07ff59d2f0e98"
+  },
+  {
+    "path": "paper/main.tex",
+    "size_bytes": 52981,
+    "sha256": "205b321aa2421a9f9ccd47387e268a3243ff349e18bf60ac4a0833f023d3fc3d"
+  },
+  {
+    "path": "paper/references.bib",
+    "size_bytes": 4756,
+    "sha256": "898b40e47763969bac5cba8178f968d5969cbfc3bda9de6855b604a7ab50f287"
+  },
+  {
+    "path": "paper/supplement.tex",
+    "size_bytes": 34846,
+    "sha256": "8c87aae1fa1717b5a16dd55f1df296d99f7a0d3cf40d18ae8b07b097ff3d5fe8"
+  },
+  {
+    "path": "paper/trace_to_modal_closure.pdf",
+    "size_bytes": 477776,
+    "sha256": "90a44a3b78b7f1c6d4f9f24727599d620e6733e0b4913426d8b76893d496fa8b"
+  },
+  {
+    "path": "paper/trace_to_modal_closure_supplement.pdf",
+    "size_bytes": 466153,
+    "sha256": "10c4785eb7dd791318d02949983d06630bfc73e78d5a8774c7368e3978c601e6"
+  },
+  {
+    "path": "protocols/README.md",
+    "size_bytes": 554,
+    "sha256": "916e735e013316be39733f7aa0ee1b912af79e5a88f38738d573397d3397a9af"
+  },
+  {
+    "path": "protocols/confirmatory/original/reactor_K_readout_nonlinearity_localization_confirmatory_prereg.json",
+    "size_bytes": 1823,
+    "sha256": "43d7fa3802ecf417548a10d3e6763edf5802616e001cb21ef37dd2042519894f"
+  },
+  {
+    "path": "protocols/confirmatory/original/reactor_K_storage_superposition_nonlinear_readout_confirmatory_prereg.json",
+    "size_bytes": 1840,
+    "sha256": "a3605871123dd14dd682b66edbcb711b038e322c58287baa21e0d6392e9bcb1e"
+  },
+  {
+    "path": "protocols/confirmatory/original/reactor_compatibility_imprint_operator_explanation_confirmatory_prereg.json",
+    "size_bytes": 1514,
+    "sha256": "24ffedf220273cc0cb5cedb68acb7556925861187fceaea2a4a650fe2ca362b0"
+  },
+  {
+    "path": "protocols/confirmatory/original/reactor_contextual_trace_reactivation_confirmatory_prereg.json",
+    "size_bytes": 1929,
+    "sha256": "b7899312e56343390d29332fc687c916a2df91efe6bac0412ff0b066df4c68f5"
+  },
+  {
+    "path": "protocols/confirmatory/original/reactor_distributed_trace_architecture_confirmatory_prereg.json",
+    "size_bytes": 2044,
+    "sha256": "21ca57de7a20c99ff783c6ce5119d9e4292670b7f0233b3da257b3dc7678b362"
+  },
+  {
+    "path": "protocols/confirmatory/original/reactor_dynamic_half_channel_closure_map_confirmatory_prereg.json",
+    "size_bytes": 2043,
+    "sha256": "857fa50b82b137645725162490a33ffd429387b8a6a2ae715f6c86008309a425"
+  },
+  {
+    "path": "protocols/confirmatory/original/reactor_fixed_closure_modal_attractor_confirmatory_prereg.json",
+    "size_bytes": 1856,
+    "sha256": "01225633205e0a1c6b2129ea20a516012f0e85efa8892ca7055d0f081a3d3285"
+  },
+  {
+    "path": "protocols/confirmatory/original/reactor_fixed_instance_closure_multigeneration_confirmatory_prereg.json",
+    "size_bytes": 1834,
+    "sha256": "d84d5fd8e0695e305ce0b04542c6f7362012115e5530e6d523d8c675edd63804"
+  },
+  {
+    "path": "protocols/confirmatory/original/reactor_full_loop_operator_gain_confirmatory_prereg.json",
+    "size_bytes": 1923,
+    "sha256": "a381eb57774f7bac735e2774e5a35dcb105dbe1056a81f7f8201d9e5d3db3668"
+  },
+  {
+    "path": "protocols/confirmatory/original/reactor_history_field_optimal_mode_stationarity_confirmatory_prereg.json",
+    "size_bytes": 1534,
+    "sha256": "dbf55dd59ca0583c5388c2265ca7dd6928fef3a1c1c4c55c7043fcc4a9d70e2f"
+  },
+  {
+    "path": "protocols/confirmatory/original/reactor_instance_specific_modal_closure_confirmatory_prereg.json",
+    "size_bytes": 1763,
+    "sha256": "5f6064b0256140b9c69cfba0795295331f924fa5ca3a1b513b40274c82eb82e7"
+  },
+  {
+    "path": "protocols/confirmatory/original/reactor_loop_half_operator_factorization_confirmatory_prereg.json",
+    "size_bytes": 1902,
+    "sha256": "ce6a404b2abceb43e3861bd1e8c3d5928e064534464978082f92ca1cf4f2d744"
+  },
+  {
+    "path": "protocols/confirmatory/original/reactor_loop_input_output_mode_mismatch_confirmatory_prereg.json",
+    "size_bytes": 1326,
+    "sha256": "767d2e664850c4bc788f19135177aa28a62a3549c69a8026840b7f594f01597b"
+  },
+  {
+    "path": "protocols/confirmatory/original/reactor_loop_mode_drift_confirmatory_prereg.json",
+    "size_bytes": 2230,
+    "sha256": "2aa66e8c6d6d224c5bc4599c8ef521c22308c503e398b4c2587681aac2197224"
+  },
+  {
+    "path": "protocols/confirmatory/original/reactor_m_compatibility_imprint_causal_decomposition_confirmatory_prereg.json",
+    "size_bytes": 1793,
+    "sha256": "90a249e1ef6406a0ea8af6b9a12f727b77d44ac9ff705ab3090b24d3df9b2346"
+  },
+  {
+    "path": "protocols/confirmatory/original/reactor_m_to_x_return_alignment_confirmatory_prereg.json",
+    "size_bytes": 1802,
+    "sha256": "f96a597d13d024e598760d2eb816b8e446ea7e3010b9c2eb4ec788a050a75160"
+  },
+  {
+    "path": "protocols/confirmatory/original/reactor_multi_trace_K_superposition_confirmatory_prereg.json",
+    "size_bytes": 2599,
+    "sha256": "3b28cac15b1389ffafb1dd7f5861c37e7b03c2fd4a3a4bed11b54fbb03983486"
+  },
+  {
+    "path": "protocols/confirmatory/original/reactor_mx_memory_relay_confirmatory_prereg.json",
+    "size_bytes": 2103,
+    "sha256": "d356e7a6dc283988c2cc50cc69ad898bb19a3fb104c7ac033db3f2285591a567"
+  },
+  {
+    "path": "protocols/confirmatory/original/reactor_native_modal_closure_coproduct_confirmatory_prereg.json",
+    "size_bytes": 1345,
+    "sha256": "503eb257d928f7c5c2df75687b975571fbfd20b5bf2272d298598ad1abd786f8"
+  },
+  {
+    "path": "protocols/confirmatory/original/reactor_native_mode_compatibility_imprint_confirmatory_prereg.json",
+    "size_bytes": 1606,
+    "sha256": "ee087d78e3d72a80384a53cf8630d555f5544c2cad898519eb5ab4cb746b6df0"
+  },
+  {
+    "path": "protocols/confirmatory/original/reactor_native_mode_competition_confirmatory_prereg.json",
+    "size_bytes": 1663,
+    "sha256": "eabc047b5465fb296a53a9ee46d0b688a2052dab275dcbda97a9066529f831f5"
+  },
+  {
+    "path": "protocols/confirmatory/original/reactor_native_written_field_hysteresis_confirmatory_prereg.json",
+    "size_bytes": 2164,
+    "sha256": "6567637020781a13eb7cf906e518162157a31ba3e5d053c154423923e255b653"
+  },
+  {
+    "path": "protocols/confirmatory/original/reactor_optimal_mode_stationarity_confirmatory_prereg.json",
+    "size_bytes": 1862,
+    "sha256": "aaceaa7f2e1f2e8b59f9389a94f79e9fa7f7e230d3905c77c58b90c5c69161a1"
+  },
+  {
+    "path": "protocols/confirmatory/original/reactor_return_aligned_residual_attenuation_confirmatory_prereg.json",
+    "size_bytes": 1867,
+    "sha256": "ffd50503bc34fc46fbcc0b933b44a5645feb6d9930737c691b6d657cabdb1189"
+  },
+  {
+    "path": "protocols/confirmatory/original/reactor_same_present_history_geometry_confirmatory_prereg.json",
+    "size_bytes": 3303,
+    "sha256": "70ba84d7586047e8cfc173f32091225f6d4cb5452fe7a7cdadb8dd86d7931ddf"
+  },
+  {
+    "path": "protocols/confirmatory/original/reactor_second_time_maladaptive_trace_confirmatory_prereg.json",
+    "size_bytes": 2086,
+    "sha256": "5e1f42ef2b2a4ed281686d584bcab26c4071b2f10581a80ab144141eafa7a779"
+  },
+  {
+    "path": "protocols/confirmatory/original/reactor_third_trace_contextual_reweighting_confirmatory_prereg.json",
+    "size_bytes": 1955,
+    "sha256": "0f7af78484c42e5ae119d46657b87e0a432c8603f5fac67b5058fa767cae4163"
+  },
+  {
+    "path": "protocols/confirmatory/original/reactor_trace_weight_continuation_confirmatory_prereg.json",
+    "size_bytes": 2013,
+    "sha256": "7ec5aa6fe3147e89442dc30b3ee50d02005ed3636081a34f42dec8c0b8fb0595"
+  },
+  {
+    "path": "protocols/confirmatory/transcript_recovered/reactor_instance_geometry_moderates_closure_effect_diagnostic_design.json",
+    "size_bytes": 1364,
+    "sha256": "351d3ee9712e7fbb76c5ba4f580f3dc5e805b35754e83e7036314adea776fd20"
+  },
+  {
+    "path": "protocols/confirmatory/transcript_recovered/reactor_scale_invariant_write_read_reciprocity_confirmatory_prereg.json",
+    "size_bytes": 1760,
+    "sha256": "26b2318af62b98ce5e6607c8d2b575ecbbb2d11060097cf5a4dedfa85cfa23f6"
+  },
+  {
+    "path": "protocols/confirmatory/transcript_recovered/reactor_write_read_subspace_factorization_confirmatory_prereg.json",
+    "size_bytes": 1764,
+    "sha256": "99686d7f6b97a03e5e8dbb8c21c385127c3bc5cc0ce15aacbc85eb0500dc3433"
+  },
+  {
+    "path": "protocols/diagnostic/original/reactor_causal_relation_geometry_generalization_prereg.json",
+    "size_bytes": 3877,
+    "sha256": "b357b45872fb71633e520650660b18602c95cf8a1b7a8508f75cea7a77607a4b"
+  },
+  {
+    "path": "provenance/EVIDENCE_AUDIT.csv",
+    "size_bytes": 29123,
+    "sha256": "cb33f424c81d7c5cd259b363d7b6f29c053605cfb10bdc3ae21c9523c4cf7f97"
+  },
+  {
+    "path": "provenance/README.md",
+    "size_bytes": 846,
+    "sha256": "88a02d098661695cd8f19d38d887eb66bdf5b61ab640cbb6c03346a71f63f42d"
+  },
+  {
+    "path": "provenance/SOURCE_EXPORT_HASHES.txt",
+    "size_bytes": 528,
+    "sha256": "49c4a6715f43d8ca7d1a123aa128d0e71c1121959972af15209b7e2e5706d8a5"
+  },
+  {
+    "path": "provenance/metadata/Paper_IV_Master_Matrix_v03.xlsx",
+    "size_bytes": 49209,
+    "sha256": "02fd878be2101588fa30756d5bc62ca16da87b4ba8ca3d0aee7c40dad911ff83"
+  },
+  {
+    "path": "provenance/metadata/Paper_IV_Methods_Audit_v01.md",
+    "size_bytes": 6713,
+    "sha256": "d133bf5ab7a88919e4aa5c109124ac6f44a722d2510c4f6ca50478d78cb84bdc"
+  },
+  {
+    "path": "provenance/metadata/README.md",
+    "size_bytes": 544,
+    "sha256": "4620bd84cc9eb322753b2996a9d2b231d7100de8978180a2c6f0aa2da00ca779"
+  },
+  {
+    "path": "provenance/metadata/historical/Paper_IV_Source_Recovery_Report_v01.md",
+    "size_bytes": 3067,
+    "sha256": "5aa8739ad358e7ea40025e80dded4069cb177d02aab80023e57f9bbad1f40c66"
+  },
+  {
+    "path": "provenance/metadata/historical/Paper_IV_Source_Recovery_Report_v02.md",
+    "size_bytes": 3668,
+    "sha256": "30e30155a8477d79cabba22649dae61ecda699fa525bf0e3d9470476943ca44a"
+  },
+  {
+    "path": "rebuild_paper.sh",
+    "size_bytes": 842,
+    "sha256": "0ef7e617b68fad31e16a5f551ddbe36660c209d9e25bfb3e4e4b35f7745e8bc1"
+  },
+  {
+    "path": "requirements.txt",
+    "size_bytes": 90,
+    "sha256": "809a8d234ed905e896b256cb2a238b1df7b107015d334045eb0cf8adada412f8"
+  },
+  {
+    "path": "results/README.md",
+    "size_bytes": 476,
+    "sha256": "5261129ffeb942f68f378579584388dab7fc2d97a9aa8929ff80e6ceca9d0c32"
+  },
+  {
+    "path": "results/main/reactor_K_readout_nonlinearity_localization_confirmatory_diagnostics.csv",
+    "size_bytes": 462,
+    "sha256": "bc3b58ecbb85504170129ca5b46e97d40572a69f5a1def8b6ec78255ceebdc04"
+  },
+  {
+    "path": "results/main/reactor_K_readout_nonlinearity_localization_confirmatory_primary_tests.csv",
+    "size_bytes": 626,
+    "sha256": "de683f92a96834c95913cd8737b5f66de208d3f953c2a0766f0c613e489e0e28"
+  },
+  {
+    "path": "results/main/reactor_K_readout_nonlinearity_localization_confirmatory_results.csv",
+    "size_bytes": 26283,
+    "sha256": "3546cdc0e986299781a77d572456528702aa65b6c228f4a7bf9cb1389b0b35d8"
+  },
+  {
+    "path": "results/main/reactor_K_readout_nonlinearity_localization_confirmatory_summary.csv",
+    "size_bytes": 1996,
+    "sha256": "5e258dec8ec73135af80af0697373e791f7247c556edc77d41e0bc8154521398"
+  },
+  {
+    "path": "results/main/reactor_K_storage_superposition_nonlinear_readout_confirmatory_diagnostics.csv",
+    "size_bytes": 495,
+    "sha256": "b7f6485dd22216a028913cf88cb1eca62b281f1487b064548d4b5a164e4e4224"
+  },
+  {
+    "path": "results/main/reactor_K_storage_superposition_nonlinear_readout_confirmatory_primary_tests.csv",
+    "size_bytes": 552,
+    "sha256": "8df116f03cd8bcae4898dee6a7aba41cfc7ed0850f6eab8abe3665870c182578"
+  },
+  {
+    "path": "results/main/reactor_K_storage_superposition_nonlinear_readout_confirmatory_results.csv",
+    "size_bytes": 7856,
+    "sha256": "3c4543c208383372cd29849a523702d3e24be8ce70d906e91e2aedebc3cbb140"
+  },
+  {
+    "path": "results/main/reactor_K_storage_superposition_nonlinear_readout_confirmatory_summary.csv",
+    "size_bytes": 768,
+    "sha256": "5302919efee10e4289ade0a215abe577a0dae175409eb689c89590fc6baaf80c"
+  },
+  {
+    "path": "results/main/reactor_compatibility_imprint_operator_explanation_confirmatory_diagnostics.csv",
+    "size_bytes": 295,
+    "sha256": "a61603347af7d2f3b081d70e7299a5365c25841f595e2447a9ec02f48734ff4d"
+  },
+  {
+    "path": "results/main/reactor_compatibility_imprint_operator_explanation_confirmatory_primary_tests.csv",
+    "size_bytes": 464,
+    "sha256": "738e42d4e17e84d227db64330ea95bae8e2e3846469702d97b559028a7a510c1"
+  },
+  {
+    "path": "results/main/reactor_compatibility_imprint_operator_explanation_confirmatory_results.csv",
+    "size_bytes": 184507,
+    "sha256": "10b4e74aefe2c2ed9f7477b4e1f067adaf4540d33a44706dfd442009c173fd7e"
+  },
+  {
+    "path": "results/main/reactor_compatibility_imprint_operator_explanation_confirmatory_seed_summary.csv",
+    "size_bytes": 9421,
+    "sha256": "ef6f8b4c7f0fdd418b9b2f58c45e225057b2dce30083ad6d47ba584e748e25c6"
+  },
+  {
+    "path": "results/main/reactor_contextual_trace_reactivation_confirmatory_diagnostics.csv",
+    "size_bytes": 471,
+    "sha256": "5f6da0be24d18235fb6f95b7e4cb00ee6c05486bc579af491a3b66fe72cfa1c5"
+  },
+  {
+    "path": "results/main/reactor_contextual_trace_reactivation_confirmatory_primary_tests.csv",
+    "size_bytes": 636,
+    "sha256": "0de25ccf202a4eba193d50fc7b81605310e88f441cb4a2b346a303224df9222c"
+  },
+  {
+    "path": "results/main/reactor_contextual_trace_reactivation_confirmatory_results.csv",
+    "size_bytes": 40281,
+    "sha256": "5d37a9cf930ce0b6b6e3d23440c098bcdd876a9439554022255deba2784a2cd5"
+  },
+  {
+    "path": "results/main/reactor_contextual_trace_reactivation_confirmatory_summary.csv",
+    "size_bytes": 2414,
+    "sha256": "62b177ad933a0c61f5e4f79a1ac5a1c7e15a00726feeb11e378ea3f2d14d3e5b"
+  },
+  {
+    "path": "results/main/reactor_distributed_trace_architecture_confirmatory_diagnostics.csv",
+    "size_bytes": 438,
+    "sha256": "0accffa02a8b1448b31a9719333974127c2216e96e9f82d0a745915464d47d32"
+  },
+  {
+    "path": "results/main/reactor_distributed_trace_architecture_confirmatory_primary_tests.csv",
+    "size_bytes": 541,
+    "sha256": "e3b842aad7bd441b88877e6cfb3cfe501cfca8da0ad2408654eed34dec7fb14f"
+  },
+  {
+    "path": "results/main/reactor_distributed_trace_architecture_confirmatory_results.csv",
+    "size_bytes": 22650,
+    "sha256": "7259e07c7af41915bc16066941ff5608a1e3e6d0150d3bb83e62526b85691382"
+  },
+  {
+    "path": "results/main/reactor_distributed_trace_architecture_confirmatory_summary.csv",
+    "size_bytes": 1784,
+    "sha256": "6621d2580e22fc12d8b02e4a85e3bf45130201f6a59451e830e86ceb476ca8c5"
+  },
+  {
+    "path": "results/main/reactor_dynamic_half_channel_closure_map_confirmatory_primary_tests.csv",
+    "size_bytes": 580,
+    "sha256": "95f7505048c027d8e50cd207a67f4c2b5918376687a006a5e31d918d3d9d4dca"
+  },
+  {
+    "path": "results/main/reactor_dynamic_half_channel_closure_map_confirmatory_results.csv",
+    "size_bytes": 23168,
+    "sha256": "5e700328954cae5d57a370a566c88eaddb9793f2c6215daefcebc78546404bc7"
+  },
+  {
+    "path": "results/main/reactor_dynamic_half_channel_closure_map_confirmatory_summary.csv",
+    "size_bytes": 559,
+    "sha256": "3b487cf1e1e43aaf595fb8330127d4f1bbd224c2c0ea59b9454e401005798a68"
+  },
+  {
+    "path": "results/main/reactor_fixed_closure_modal_attractor_confirmatory_diagnostics.csv",
+    "size_bytes": 317,
+    "sha256": "76f9908e011c90c930d8824cb35b27b1213681fa06469c9763560f14fd4ed4f3"
+  },
+  {
+    "path": "results/main/reactor_fixed_closure_modal_attractor_confirmatory_primary_tests.csv",
+    "size_bytes": 672,
+    "sha256": "d510107d2ec9f3dc11ec5cac4bfa680fae5723014ee8349063534b83c6d581f2"
+  },
+  {
+    "path": "results/main/reactor_fixed_closure_modal_attractor_confirmatory_results.csv",
+    "size_bytes": 1159746,
+    "sha256": "e6120e03ade3dd38c1b823fa1977689780e6bd8e110ef65987db01842a127d02"
+  },
+  {
+    "path": "results/main/reactor_fixed_closure_modal_attractor_confirmatory_summary.csv",
+    "size_bytes": 4556,
+    "sha256": "37d3c2af5ba5bf8f53145d75f3c554a27cedb204b64a2295ec88341c68fd6ae9"
+  },
+  {
+    "path": "results/main/reactor_fixed_instance_closure_multigeneration_confirmatory_diagnostics.csv",
+    "size_bytes": 324,
+    "sha256": "f6a9ebb543255e38578a378a00688a11dc62d7f977a1ac3c15110f6882eba75e"
+  },
+  {
+    "path": "results/main/reactor_fixed_instance_closure_multigeneration_confirmatory_primary_tests.csv",
+    "size_bytes": 563,
+    "sha256": "31b9ddc09a9a061b565afe7372e293104ea00f28f15c71da6859f76c8bf29585"
+  },
+  {
+    "path": "results/main/reactor_fixed_instance_closure_multigeneration_confirmatory_results.csv",
+    "size_bytes": 165256,
+    "sha256": "8057534744c9ccb4cfbba8ce37b95ca5395e3290b4a2be35358f2d82344daa0d"
+  },
+  {
+    "path": "results/main/reactor_fixed_instance_closure_multigeneration_confirmatory_summary.csv",
+    "size_bytes": 1837,
+    "sha256": "3b698a402fc9bd1be4fae7a2691927a8383bd8ba365e987a111c3c29ef4b3e79"
+  },
+  {
+    "path": "results/main/reactor_full_loop_operator_gain_confirmatory_diagnostics.csv",
+    "size_bytes": 432,
+    "sha256": "35925105d1580ca3117ac7a97d6235f2a5727aecd30fe9b3c44284304ee6ae05"
+  },
+  {
+    "path": "results/main/reactor_full_loop_operator_gain_confirmatory_primary_tests.csv",
+    "size_bytes": 792,
+    "sha256": "39d1435a0a9d33f305a27cbeada1ac7baecbe082b0faaa82270c187a00601e8f"
+  },
+  {
+    "path": "results/main/reactor_full_loop_operator_gain_confirmatory_results.csv",
+    "size_bytes": 31286,
+    "sha256": "71138e390bf498e2379bd8084e27df29bde1ecc74f48d3eac2a8421b7df0bfb8"
+  },
+  {
+    "path": "results/main/reactor_full_loop_operator_gain_confirmatory_summary.csv",
+    "size_bytes": 1886,
+    "sha256": "33ed3cc7de8acc6ee90fe836d9b9cd572b3e7b0edcd27328f3884737ee3922a5"
+  },
+  {
+    "path": "results/main/reactor_loop_half_operator_factorization_confirmatory_diagnostics.csv",
+    "size_bytes": 570,
+    "sha256": "ade2d5003606fc0ae76c027c63e46830f5e736f658b9b20fdb69eeec7308b2b5"
+  },
+  {
+    "path": "results/main/reactor_loop_half_operator_factorization_confirmatory_primary_tests.csv",
+    "size_bytes": 621,
+    "sha256": "d49923cf80e9f25706c31eb31a5602af85ee80e2132e00ca822dbacafa189401"
+  },
+  {
+    "path": "results/main/reactor_loop_half_operator_factorization_confirmatory_results.csv",
+    "size_bytes": 28460,
+    "sha256": "42b4023e1f388195de96f8fe09e41fd3ba97a6dff0085067fc84c47404a33076"
+  },
+  {
+    "path": "results/main/reactor_loop_half_operator_factorization_confirmatory_summary.csv",
+    "size_bytes": 1615,
+    "sha256": "4402dc12b57cf1939197e33988b459d043996069b26241b89ac4a66eb58a9b60"
+  },
+  {
+    "path": "results/main/reactor_loop_input_output_mode_mismatch_confirmatory_diagnostics.csv",
+    "size_bytes": 386,
+    "sha256": "7d9286bac46da1e045a11126c86c33c1d7144bb2c8e26f2c9cb03d05064ca033"
+  },
+  {
+    "path": "results/main/reactor_loop_input_output_mode_mismatch_confirmatory_primary_tests.csv",
+    "size_bytes": 605,
+    "sha256": "7c9cf1729f0844e3c6b80479be12c20f63beaaecc6569ec243b58b9b05e118f5"
+  },
+  {
+    "path": "results/main/reactor_loop_input_output_mode_mismatch_confirmatory_results.csv",
+    "size_bytes": 11416,
+    "sha256": "2b3638f5d195d580873d94bd0d7e05f710d155300889624eb9f066a97cd82f9b"
+  },
+  {
+    "path": "results/main/reactor_loop_mode_drift_confirmatory_diagnostics.csv",
+    "size_bytes": 345,
+    "sha256": "2083545002df43314cf5b85e785c0ea933e6d74bb19e2a96c34a8c92d75533ed"
+  },
+  {
+    "path": "results/main/reactor_loop_mode_drift_confirmatory_primary_tests.csv",
+    "size_bytes": 1077,
+    "sha256": "6858e8b5479bb16d16897f79c4cbf4f7b310b2245ca04265f99adc0e56871903"
+  },
+  {
+    "path": "results/main/reactor_loop_mode_drift_confirmatory_results.csv",
+    "size_bytes": 60042,
+    "sha256": "fddeae934f461f11e847734512350c96d2e9fdd659dcc7fd37a86d105c6af7b5"
+  },
+  {
+    "path": "results/main/reactor_loop_mode_drift_confirmatory_seed_summary.csv",
+    "size_bytes": 12114,
+    "sha256": "7738f6ba132cfcff8b8618e95ebc08934b47bd1f60c61e7796544fef5bce8a38"
+  },
+  {
+    "path": "results/main/reactor_loop_mode_drift_confirmatory_summary.csv",
+    "size_bytes": 695,
+    "sha256": "ba85ac7fbeebf186faed8bd56f4247a413871eda9744e70b6443f650c004aeba"
+  },
+  {
+    "path": "results/main/reactor_multi_trace_K_superposition_confirmatory_diagnostics.csv",
+    "size_bytes": 424,
+    "sha256": "b74fde73ce8c7a5efc0b185dfc8eba451096e4c99f12b74d3f9e8bb605b56a08"
+  },
+  {
+    "path": "results/main/reactor_multi_trace_K_superposition_confirmatory_primary_tests.csv",
+    "size_bytes": 570,
+    "sha256": "231d9749386da69a84413a0f3bd0844eceabcbf8db690732a933f3a3fe158f2d"
+  },
+  {
+    "path": "results/main/reactor_multi_trace_K_superposition_confirmatory_results.csv",
+    "size_bytes": 17614,
+    "sha256": "79aff90206275561bd1153d235ce09dbcd75baf941a7f856fcf5304bbb10399f"
+  },
+  {
+    "path": "results/main/reactor_multi_trace_K_superposition_confirmatory_summary.csv",
+    "size_bytes": 1320,
+    "sha256": "d473ee1453839532412c1720e025c11c253f8dba7517c0b5da23aa52e7deb536"
+  },
+  {
+    "path": "results/main/reactor_mx_memory_relay_confirmatory_diagnostics.csv",
+    "size_bytes": 324,
+    "sha256": "77e6b56b811725939ef437f509dceec5efa9bbcde1a2937eccd721d0d23f3a7b"
+  },
+  {
+    "path": "results/main/reactor_mx_memory_relay_confirmatory_primary_tests.csv",
+    "size_bytes": 623,
+    "sha256": "caa0a9c00b720c99c73bd44fdf75c3081d79f4361067552c6da1924cfea710ef"
+  },
+  {
+    "path": "results/main/reactor_mx_memory_relay_confirmatory_results.csv",
+    "size_bytes": 12828,
+    "sha256": "6657c01b31e935d2268cfd10d5d14ecc7c3bb3f3d2b42dfcf0d0119f222c07db"
+  },
+  {
+    "path": "results/main/reactor_mx_memory_relay_confirmatory_summary.csv",
+    "size_bytes": 973,
+    "sha256": "8a64a8df93fdfadb2de025a303fe0f529eb64ca6c800fd4ea717ebf48dcda930"
+  },
+  {
+    "path": "results/main/reactor_native_m_mode_correction_diagnostic_replication.csv",
+    "size_bytes": 1194,
+    "sha256": "8e7a3955bfbdbe3f9ebe61b31fe79e94a3eb419446ceee4961a2192e07a90e89"
+  },
+  {
+    "path": "results/main/reactor_native_m_mode_correction_diagnostic_replication_detail.csv",
+    "size_bytes": 99990,
+    "sha256": "dd99c61cba7ec3d243f71d3a7fdf723090c1a6d3ae99ca40224c3c045e2c7705"
+  },
+  {
+    "path": "results/main/reactor_native_modal_closure_coproduct_confirmatory_primary_tests.csv",
+    "size_bytes": 513,
+    "sha256": "d8dd522cca4b65fb46a2fb4896af00118d7afd55e4be4f4ce86b6c62bd4c02f0"
+  },
+  {
+    "path": "results/main/reactor_native_modal_closure_coproduct_confirmatory_results.csv",
+    "size_bytes": 105040,
+    "sha256": "6130724e772ee82774e7ce0a20de142a2802c70f8b5b873459b4a498c42e03e8"
+  },
+  {
+    "path": "results/main/reactor_native_modal_closure_coproduct_confirmatory_seed_summary.csv",
+    "size_bytes": 31129,
+    "sha256": "1ce6f979fddc71843930f7bc81e0a25efb02aecd76d8af751274dee52952becd"
+  },
+  {
+    "path": "results/main/reactor_native_modal_closure_coproduct_confirmatory_summary.csv",
+    "size_bytes": 635,
+    "sha256": "31fe7ac145cf0302eb5e764d6109f62d503da37e7b867823249e7eefb773e334"
+  },
+  {
+    "path": "results/main/reactor_native_mode_competition_confirmatory_primary_tests.csv",
+    "size_bytes": 713,
+    "sha256": "6c26960f757963e4147ad7cf2a88633f0cc885b38105f9348337e0e9319bf83d"
+  },
+  {
+    "path": "results/main/reactor_native_mode_competition_confirmatory_results.csv",
+    "size_bytes": 273605,
+    "sha256": "9d8bf5d06e2180ff4749675ffc250b68269d44c6220027c85e6d80e357af0645"
+  },
+  {
+    "path": "results/main/reactor_native_mode_competition_confirmatory_seed_summary.csv",
+    "size_bytes": 14590,
+    "sha256": "0abad7b9e2e2a30b460d79125cbbf54fd004fb232104f0540aed397cae586067"
+  },
+  {
+    "path": "results/main/reactor_native_mode_competition_confirmatory_summary.csv",
+    "size_bytes": 272,
+    "sha256": "f4c3b56eaa505ed62102db7a381c4d547e67642054045b5d7347c7870c8e5b27"
+  },
+  {
+    "path": "results/main/reactor_native_written_field_hysteresis_confirmatory_diagnostics.csv",
+    "size_bytes": 369,
+    "sha256": "94aa56d8a6962741be068272ff6546235a93417698a66ca9369129854e42513a"
+  },
+  {
+    "path": "results/main/reactor_native_written_field_hysteresis_confirmatory_primary_tests.csv",
+    "size_bytes": 1013,
+    "sha256": "74c061bdef0597dc7324de1d81b45ef26c9c130e80aa4d7dc2061cf9c1f8e2c8"
+  },
+  {
+    "path": "results/main/reactor_native_written_field_hysteresis_confirmatory_results.csv",
+    "size_bytes": 67377,
+    "sha256": "b3e87208f9935285ad8fe2a7fa7664b93849a52a78d751f92215f76a485e83fc"
+  },
+  {
+    "path": "results/main/reactor_native_written_field_hysteresis_confirmatory_summary.csv",
+    "size_bytes": 1942,
+    "sha256": "faf79c1a4a5825bc8e56ec71ea99ffb144d26e458e26c4c1565be9e495a70acd"
+  },
+  {
+    "path": "results/main/reactor_optimal_mode_stationarity_confirmatory_diagnostics.csv",
+    "size_bytes": 186,
+    "sha256": "55efbcd5d8b62c0e2f34201f2b573b008cd525ddaa0ed5a9a96721890833518b"
+  },
+  {
+    "path": "results/main/reactor_optimal_mode_stationarity_confirmatory_primary_tests.csv",
+    "size_bytes": 486,
+    "sha256": "7ec136c471950f1d9a796a418a4eb87500272012612d5ee9872afe784358f862"
+  },
+  {
+    "path": "results/main/reactor_optimal_mode_stationarity_confirmatory_results.csv",
+    "size_bytes": 23521,
+    "sha256": "cdc62e1fe24bc8a2bc526b9b57df70ec918977d0b18807fd15157aac06a33bb9"
+  },
+  {
+    "path": "results/main/reactor_optimal_mode_stationarity_confirmatory_summary.csv",
+    "size_bytes": 328,
+    "sha256": "7cf91d7d5015cd5ffabf2d720827904d87a1dbc2977362cc84d4f1c2c640ace3"
+  },
+  {
+    "path": "results/main/reactor_return_aligned_residual_attenuation_confirmatory_detail.csv",
+    "size_bytes": 767575,
+    "sha256": "ac3cbd925b854041855421cfd8e5ae0d0afad33b6c07b1188dd8cc8cd4614cc6"
+  },
+  {
+    "path": "results/main/reactor_return_aligned_residual_attenuation_confirmatory_diagnostics.csv",
+    "size_bytes": 477,
+    "sha256": "d2fa9355b33da7955f14dca419cd04871853ee692250345fc55c32fd05ecf1db"
+  },
+  {
+    "path": "results/main/reactor_return_aligned_residual_attenuation_confirmatory_primary_tests.csv",
+    "size_bytes": 600,
+    "sha256": "9b9c4b81b8a49ebb22a047fc5532e3f09a4a4cf274f097a84fbf2b5cee79120d"
+  },
+  {
+    "path": "results/main/reactor_return_aligned_residual_attenuation_confirmatory_results.csv",
+    "size_bytes": 26576,
+    "sha256": "39e6f1a2356cbfc2659d06109fb72dafa4fe30534225a43a455493df4efde527"
+  },
+  {
+    "path": "results/main/reactor_return_aligned_residual_attenuation_confirmatory_summary.csv",
+    "size_bytes": 1619,
+    "sha256": "1f4413e38ab724ca1d8f9c84e4941a101e3bf50d335cc9290dc86b3ed5696927"
+  },
+  {
+    "path": "results/main/reactor_same_present_history_geometry_confirmatory_diagnostics.csv",
+    "size_bytes": 389,
+    "sha256": "0d6d71b2bd1a5c236adfc6008ff1963712670e6416c0484d2af2b88254848129"
+  },
+  {
+    "path": "results/main/reactor_same_present_history_geometry_confirmatory_primary_tests.csv",
+    "size_bytes": 722,
+    "sha256": "8dde1809f29cf674a7f98a2053254a076c7f90bd899192665aebda37521df82c"
+  },
+  {
+    "path": "results/main/reactor_same_present_history_geometry_confirmatory_results.csv",
+    "size_bytes": 16189,
+    "sha256": "dca29c68e636f16375731acc92e044bdd3e58e64f498d2281b237ec28576c7e9"
+  },
+  {
+    "path": "results/main/reactor_same_present_history_geometry_confirmatory_summary.csv",
+    "size_bytes": 1530,
+    "sha256": "af9afa74989757a5f017bf7f99899a78d92ec2e8247fda141cadbf14f8e49836"
+  },
+  {
+    "path": "results/main/reactor_third_trace_contextual_reweighting_confirmatory_diagnostics.csv",
+    "size_bytes": 392,
+    "sha256": "dc6deae9d15a63f425f54b93fbb3022278f843646f4b824662e334db295eff3a"
+  },
+  {
+    "path": "results/main/reactor_third_trace_contextual_reweighting_confirmatory_primary_tests.csv",
+    "size_bytes": 440,
+    "sha256": "ba897fefc0ac7dab96b1f6bdd2b9ea832a537a5b180d7170db1854dc87ef62c6"
+  },
+  {
+    "path": "results/main/reactor_third_trace_contextual_reweighting_confirmatory_results.csv",
+    "size_bytes": 10372,
+    "sha256": "21ca4f28efd8ded64b0c86c0d5848a146378de0030cc56ffef03ec2e3ad77b13"
+  },
+  {
+    "path": "results/main/reactor_third_trace_contextual_reweighting_confirmatory_summary.csv",
+    "size_bytes": 948,
+    "sha256": "1bb835889576f151ce392e2fdad34b6198c65a9aad4128585f3c6b0e33ebc1d5"
+  },
+  {
+    "path": "results/robustness/README.md",
+    "size_bytes": 633,
+    "sha256": "fde98303a0ff53aa908b7859e54092666029f87b4df0c1085404029e94b520bb"
+  },
+  {
+    "path": "results/robustness/dynamic_closure_multicontext_robustness_64x4.csv",
+    "size_bytes": 32307,
+    "sha256": "c34366656e7a67496abdb0cbb51c62a4c9fe5917e73b3fba71267927df63e80d"
+  },
+  {
+    "path": "results/robustness/fixed_dynamic_renorm_robustness_64.csv",
+    "size_bytes": 67954,
+    "sha256": "91544147b48243298bb9bc6b5562c1e6b84c8e030fedb7c06a8018291d18d646"
+  },
+  {
+    "path": "results/robustness/operator_epsilon_robustness_16.csv",
+    "size_bytes": 7099,
+    "sha256": "91e1de328f742d58d7ee3f09744b1c7c64819fea9e917ad4a88834e077d10ab9"
+  },
+  {
+    "path": "results/supplementary/reactor_ascent_memory_at_turn_confirmatory_diagnostics.csv",
+    "size_bytes": 439,
+    "sha256": "898d242145258b0092f72f32a5d1f858edebfef1c359bebfe719f93b70fba5a1"
+  },
+  {
+    "path": "results/supplementary/reactor_ascent_memory_at_turn_confirmatory_primary_tests.csv",
+    "size_bytes": 887,
+    "sha256": "a83334b7127d3c37830b9c4a65997f6c8585101901fd4a2eb1e68fbe52950027"
+  },
+  {
+    "path": "results/supplementary/reactor_ascent_memory_at_turn_confirmatory_results.csv",
+    "size_bytes": 27197,
+    "sha256": "0fd04d635ecb422b24c12e745ff0d5aa0ea02d16b156170eb8fa4a85dda3c5c9"
+  },
+  {
+    "path": "results/supplementary/reactor_ascent_memory_at_turn_confirmatory_summary.csv",
+    "size_bytes": 1540,
+    "sha256": "6d7148ba8bb15556f748bbb665de1458781f0224994be97f2b809959d8d8c4a8"
+  },
+  {
+    "path": "results/supplementary/reactor_causal_relation_geometry_generalization_primary_tests.csv",
+    "size_bytes": 778,
+    "sha256": "332ede699c0df72cf570a26a1750a26b73d5857728ddb8f87c4fa3482231d792"
+  },
+  {
+    "path": "results/supplementary/reactor_causal_relation_geometry_generalization_results.csv",
+    "size_bytes": 15352,
+    "sha256": "30e9bc682ad4799ea42b534a86edb4ac10e6e5e0023b3c9327a11427ac8aa22d"
+  },
+  {
+    "path": "results/supplementary/reactor_causal_relation_geometry_generalization_summary.csv",
+    "size_bytes": 969,
+    "sha256": "bdbaa9d9d7eef2abf4549d0cd103bebbdf63338d360d2c9e5d546402044461cc"
+  },
+  {
+    "path": "results/supplementary/reactor_history_field_optimal_mode_stationarity_confirmatory_diagnostics.csv",
+    "size_bytes": 168,
+    "sha256": "7b295ed3b9d117a816b0ae824e197893c66b417fd60eb99312b44429cc06412d"
+  },
+  {
+    "path": "results/supplementary/reactor_history_field_optimal_mode_stationarity_confirmatory_primary_tests.csv",
+    "size_bytes": 521,
+    "sha256": "1affb0838f4a195abeb4d5b851fef38969d9e6b8feb342f7a5b4eda479fca785"
+  },
+  {
+    "path": "results/supplementary/reactor_history_field_optimal_mode_stationarity_confirmatory_results.csv",
+    "size_bytes": 7494,
+    "sha256": "cf307c324416f4ca6805e9de0a22b40d1f4c2aef437809adac55d75f78de86ac"
+  },
+  {
+    "path": "results/supplementary/reactor_history_field_optimal_mode_stationarity_confirmatory_summary.csv",
+    "size_bytes": 499,
+    "sha256": "864f272774931f33bd2fda05791e68182b725781ea364c4d92283540b29a58a4"
+  },
+  {
+    "path": "results/supplementary/reactor_instance_geometry_moderates_closure_effect_diagnostic_results.csv",
+    "size_bytes": 10647,
+    "sha256": "d84c9aa3ab606bf50c7795c0ea0e95d4eed962ceb7ebf292321839bd5c171431"
+  },
+  {
+    "path": "results/supplementary/reactor_instance_specific_modal_closure_confirmatory_primary_tests.csv",
+    "size_bytes": 508,
+    "sha256": "3702e953b622a938b552e8862af686532a9816671cbcb84b4fe3fc3b23d50c4d"
+  },
+  {
+    "path": "results/supplementary/reactor_instance_specific_modal_closure_confirmatory_results.csv",
+    "size_bytes": 11667,
+    "sha256": "30b1ac0972659e04671645c2c56bdc9ec0d6deaaa024a3f1129d5353e5757bfe"
+  },
+  {
+    "path": "results/supplementary/reactor_instance_specific_modal_closure_confirmatory_summary.csv",
+    "size_bytes": 279,
+    "sha256": "a8a86d4e18d595525de2b9725d4cbc33354ff078c4d895e6fa219546c33ceb40"
+  },
+  {
+    "path": "results/supplementary/reactor_m_compatibility_imprint_causal_decomposition_confirmatory_by_angle.csv",
+    "size_bytes": 829,
+    "sha256": "87cfa1ac0d5d772ff200f4e7e1da7002925e6a64ff4d7f83b6f69aa3daff1822"
+  },
+  {
+    "path": "results/supplementary/reactor_m_compatibility_imprint_causal_decomposition_confirmatory_diagnostics.csv",
+    "size_bytes": 240,
+    "sha256": "07d1323dc726821b04fc28e36107e1374fcb8ec1e5baaf22c23134d6c34a6f12"
+  },
+  {
+    "path": "results/supplementary/reactor_m_compatibility_imprint_causal_decomposition_confirmatory_primary_tests.csv",
+    "size_bytes": 409,
+    "sha256": "3e7f20e6c0eeabef67d56a73bccb4f89239b17e11700350140c48b56ddf0cc9b"
+  },
+  {
+    "path": "results/supplementary/reactor_m_compatibility_imprint_causal_decomposition_confirmatory_results.csv",
+    "size_bytes": 366198,
+    "sha256": "851c08146a9e1a3187d8576205c60b746adad519905e7af6fa7c37673dfca5c1"
+  },
+  {
+    "path": "results/supplementary/reactor_m_compatibility_imprint_causal_decomposition_confirmatory_seed_summary.csv",
+    "size_bytes": 7781,
+    "sha256": "fe6bb15c41ecc89d894ea313a5604a236c0051f62cf3ed6573eba3c55a92193f"
+  },
+  {
+    "path": "results/supplementary/reactor_m_to_x_return_alignment_confirmatory_diagnostics.csv",
+    "size_bytes": 448,
+    "sha256": "dc09185e6196be6ce5d80c89c6c8ea78c6a18dde23e50a0a21d75ef6fc1ca000"
+  },
+  {
+    "path": "results/supplementary/reactor_m_to_x_return_alignment_confirmatory_primary_tests.csv",
+    "size_bytes": 705,
+    "sha256": "358306f8dc33d1593fac2280465c04c5adf6bdef62d8f0a04b13794cff2d7411"
+  },
+  {
+    "path": "results/supplementary/reactor_m_to_x_return_alignment_confirmatory_results.csv",
+    "size_bytes": 29223,
+    "sha256": "e04148435e765981b5795a3bd66577f6eb51652efa4b7075f3c06bbf5d926056"
+  },
+  {
+    "path": "results/supplementary/reactor_m_to_x_return_alignment_confirmatory_summary.csv",
+    "size_bytes": 1584,
+    "sha256": "9d4562076efa4f54a47aab55715038e43606b1e2b5d064fd7c8d7f17525469a2"
+  },
+  {
+    "path": "results/supplementary/reactor_native_mode_compatibility_imprint_confirmatory_by_angle.csv",
+    "size_bytes": 389,
+    "sha256": "93d337be050e1f8b10c3fa615f65458cb0da43078c6f71ef9ee879e6d97ec9bf"
+  },
+  {
+    "path": "results/supplementary/reactor_native_mode_compatibility_imprint_confirmatory_diagnostics.csv",
+    "size_bytes": 179,
+    "sha256": "7154029d480d6992a21b1f0905f6e3aa395d6f1234cc48710d03538a5220da9e"
+  },
+  {
+    "path": "results/supplementary/reactor_native_mode_compatibility_imprint_confirmatory_primary_tests.csv",
+    "size_bytes": 521,
+    "sha256": "50c041027894f3fe1ae08b1d60f410f91c2bbe3b87c0a756da54d966d5028f95"
+  },
+  {
+    "path": "results/supplementary/reactor_native_mode_compatibility_imprint_confirmatory_seed_summary.csv",
+    "size_bytes": 8235,
+    "sha256": "551d6ab1303102d0980bdc3a7f2394bb57d3134733995ada1b5bd09caeb6141a"
+  },
+  {
+    "path": "results/supplementary/reactor_scale_invariant_write_read_reciprocity_confirmatory_primary_tests.csv",
+    "size_bytes": 554,
+    "sha256": "2e9285834763a46ecc536972633620bd42ea60a9778c64df23cd530014f8dbd1"
+  },
+  {
+    "path": "results/supplementary/reactor_scale_invariant_write_read_reciprocity_confirmatory_results.csv",
+    "size_bytes": 57148,
+    "sha256": "e85161c6cde0cab5d0b6b52499c28a29635e5e83d11c5af899257c57a7c69ff0"
+  },
+  {
+    "path": "results/supplementary/reactor_scale_invariant_write_read_reciprocity_confirmatory_summary.csv",
+    "size_bytes": 706,
+    "sha256": "cfe74f82c7304311f1d0cdf65845d29766ce54d38026be8a681ad5d5a791b10d"
+  },
+  {
+    "path": "results/supplementary/reactor_second_time_maladaptive_trace_confirmatory_diagnostics.csv",
+    "size_bytes": 424,
+    "sha256": "e581bbb57122317deb7ccf2a4cc9a26013a7eba0222e8885b04a6cff3d6f7c83"
+  },
+  {
+    "path": "results/supplementary/reactor_second_time_maladaptive_trace_confirmatory_primary_tests.csv",
+    "size_bytes": 933,
+    "sha256": "5ea4fb029cb872116dec1c176d402c854636b89d86a55f11a340fb3f0c3206a7"
+  },
+  {
+    "path": "results/supplementary/reactor_second_time_maladaptive_trace_confirmatory_results.csv",
+    "size_bytes": 31049,
+    "sha256": "eb5c522dc089f031cacd84d9b6bf60ff5b1a23c90d0e8f76c3d92263e0f78018"
+  },
+  {
+    "path": "results/supplementary/reactor_second_time_maladaptive_trace_confirmatory_summary.csv",
+    "size_bytes": 1572,
+    "sha256": "96b7c14228c87e4e741fa4bdd9e9fc281de9076e50060dd026e0bf48f64e5462"
+  },
+  {
+    "path": "results/supplementary/reactor_trace_weight_continuation_confirmatory_diagnostics.csv",
+    "size_bytes": 529,
+    "sha256": "e9d8128bbf0d29c62a5ad434692b418183e44fc1664ebe5175229e18b0e5d61e"
+  },
+  {
+    "path": "results/supplementary/reactor_trace_weight_continuation_confirmatory_primary_tests.csv",
+    "size_bytes": 1299,
+    "sha256": "c0d9b2ccb0a7f4e31678600d853ca90331a504ba1290104b64c846339f782c2c"
+  },
+  {
+    "path": "results/supplementary/reactor_trace_weight_continuation_confirmatory_results.csv",
+    "size_bytes": 18169,
+    "sha256": "8c7286d45939efc4bfb5b106897c38b943e1c57fc711192b17b144dc6e2d8ac6"
+  },
+  {
+    "path": "results/supplementary/reactor_trace_weight_continuation_confirmatory_summary.csv",
+    "size_bytes": 1829,
+    "sha256": "3abbf9b4d89648ce5a02d93ba48938e7cb987c46006af59dbd4fef801a4ab971"
+  },
+  {
+    "path": "results/supplementary/reactor_write_read_subspace_factorization_confirmatory_diagnostics.csv",
+    "size_bytes": 338,
+    "sha256": "7fe16d974c413ae06dfeeea11eb33ad0e47b95e43b354c09de70a69ed0ff2fb4"
+  },
+  {
+    "path": "results/supplementary/reactor_write_read_subspace_factorization_confirmatory_primary_tests.csv",
+    "size_bytes": 604,
+    "sha256": "64df1b7a67c85b41fd7bf43fc572ec506aa4c035888f9e3694a4c1a4060d43a5"
+  },
+  {
+    "path": "results/supplementary/reactor_write_read_subspace_factorization_confirmatory_results.csv",
+    "size_bytes": 57584,
+    "sha256": "827bbd44a59452fc6610fbf0547b38cd06251e3140782ea9e862dea47ed51e1d"
+  },
+  {
+    "path": "results/supplementary/reactor_write_read_subspace_factorization_confirmatory_summary.csv",
+    "size_bytes": 710,
+    "sha256": "c7a8aa0665af9aa78907388c2ea1f0fb417f8840e46b648e9566e9e02d7a477b"
+  }
+]
