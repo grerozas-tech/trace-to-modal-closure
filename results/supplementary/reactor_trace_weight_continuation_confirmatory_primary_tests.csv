@@ -1,0 +1,8 @@
+hypothesis,metric,b_mean,a_mean,both_under_0_12_fraction,passes,mean_effect,favorable_fraction,bootstrap95_lo,bootstrap95_hi,p_raw,p_holm,passes_component,eligible_seeds
+H1_continuous_path,mean max-jump/path fractions for b and action,0.07407427419093786,0.0771217588594903,1.0,True,,,,,,,,
+H2_rank_events_amplify_curvature,b_rank_event_adv,,,,,0.00011629771482384306,0.8852459016393442,9.222240688451625e-05,0.00014239133709435347,3.3333222222592593e-06,6.6666444445185185e-06,True,
+H2_rank_events_amplify_curvature,a_rank_event_adv,,,,,9.703026440803497e-08,0.8688524590163934,7.477705876138449e-08,1.2132733035866127e-07,3.3333222222592593e-06,6.6666444445185185e-06,True,
+H3_median_events_strongly_amplify,b_median_event_adv,,,,,0.0003759489484439764,1.0,0.0003257208512347875,0.00042773627380726957,,,True,51.0
+H3_median_events_strongly_amplify,a_median_event_adv,,,,,3.291347708264438e-07,1.0,2.6959917145739937e-07,3.9745255088944515e-07,,,True,51.0
+H4_median_events_exceed_generic_rank_events,b_median_minus_rank_adv,,,,,0.00023661233039440552,0.9607843137254902,0.00019598403248425575,0.00027931677506663646,,,True,51.0
+H4_median_events_exceed_generic_rank_events,a_median_minus_rank_adv,,,,,2.1288601880577284e-07,0.9607843137254902,1.6683620281106424e-07,2.65722304749632e-07,,,True,51.0

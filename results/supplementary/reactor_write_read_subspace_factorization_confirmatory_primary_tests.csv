@@ -1,0 +1,5 @@
+hypothesis,mean_effect,positive_fraction,bootstrap95_lo,bootstrap95_hi,passes,mean_abs_effect,fraction_abs_lt_0_08,mean_interaction,mean_abs_cos,fraction_gt_0_45
+H1_xspace_match_improves_closure,0.10107229773764642,0.734375,0.057603163123529824,0.14340498195042148,False,,,,,
+H2_memory_basis_alone_is_weak,-0.018488547079190835,,,,False,0.13544220308952049,0.34375,,,
+H3_positive_factorial_interaction,,0.6875,0.028070109409303545,0.14581291686751874,False,,,0.08755006733891676,,
+H4_both_match_produces_strong_modal_alignment,,,0.4824852150677086,0.5655404979411723,False,,,,0.5249487354459583,0.734375

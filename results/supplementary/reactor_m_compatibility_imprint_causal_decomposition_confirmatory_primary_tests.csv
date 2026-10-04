@@ -1,0 +1,5 @@
+hypothesis,mean_spearman,fraction_gt_0_80,passes,fraction_gt_0_75,aligned_minus_orth_mean,both_positive_fraction
+H1_native_return_tracks_compatibility,0.9712687960087976,1.0,True,,,
+H2_amplitude_is_causally_sufficient,0.9237631737089612,,True,0.984375,0.5653244692737416,
+H3_direction_is_causally_sufficient,0.8623135934466224,,True,0.90625,1.0055228902757838,
+H4_both_channels_positive_seedwise,,,True,,,1.0

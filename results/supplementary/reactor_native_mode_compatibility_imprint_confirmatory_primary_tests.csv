@@ -1,0 +1,5 @@
+hypothesis,mean_spearman,fraction_rho_gt_0_75,bootstrap95_lo,bootstrap95_hi,passes,mean_ratio,fraction_ratio_gt_1_5,positive_fraction,mean_difference,max_seed_relative_norm_spread
+H1_monotonic_compatibility_imprint,0.9269331898444431,1.0,0.9166519683184057,0.9366474835736364,True,,,,,
+H2_aligned_writes_more_than_orthogonal,,,2.3254376785560966,2.5384691419275205,True,2.432140098845365,1.0,,,
+H3_effect_positive_seedwise,,,,,True,,,1.0,0.001984288287765727,
+H4_equal_input_norm_sanity,,,,,True,,,,,3.89070166712942e-15

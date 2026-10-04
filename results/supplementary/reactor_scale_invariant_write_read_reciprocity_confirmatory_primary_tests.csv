@@ -1,0 +1,5 @@
+hypothesis,mean_advantage,positive_fraction,bootstrap95_lo,bootstrap95_hi,passes
+H1_reciprocity_improves_input_output_alignment,0.07050688723704725,0.6875,0.03042358177177364,0.11089087776079931,False
+H2_reciprocity_improves_normalized_inherited_closure,0.02441309721077,0.59375,-0.005912840135755404,0.0544886239506881,False
+H3_reciprocity_improves_multistep_retention,0.01428919394797896,0.546875,-0.023189198212695616,0.05082761442794918,False
+H4_reciprocity_beats_native_closure,0.18397178162266317,0.8125,0.1379052830005894,0.22949316246446325,True

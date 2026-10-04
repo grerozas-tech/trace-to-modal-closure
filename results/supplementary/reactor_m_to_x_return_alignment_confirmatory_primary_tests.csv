@@ -1,0 +1,5 @@
+hypothesis,metric,mean_effect,favorable_fraction,bootstrap95_lo,bootstrap95_hi,required_mean_gt,required_fraction_gt,passes
+H1_return_alignment_rescues_x,return_vs_native_x_gain,0.009366751383155854,1.0,0.007726782957058948,0.011151508612742956,0.005,0.85,True
+H2_return_alignment_is_specific,return_vs_scrambled_x_gain,0.012342405616468759,1.0,0.010588413242754117,0.01413195641443506,0.005,0.9,True
+H3_write_alignment_moves_toward_return_channel,write_vs_native_cos_gain,0.18401420202307384,0.90625,0.14314379807560884,0.22596831396477624,0.15,0.8,True
+H4_write_alignment_improves_full_return,write_vs_native_x_gain,0.004269475225475845,0.90625,0.0032101431689830063,0.005376466965436662,0.003,0.8,True

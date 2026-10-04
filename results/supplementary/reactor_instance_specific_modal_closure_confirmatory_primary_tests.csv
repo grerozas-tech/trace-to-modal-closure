@@ -1,0 +1,5 @@
+hypothesis,mean_abs_cos,fraction_gt_0_90,bootstrap95_lo,bootstrap95_hi,passes,mean_advantage,positive_fraction,mean_uA_uB_abs_cos,mean_vA_vB_abs_cos
+H1_own_closure_generalizes,0.9963533421147268,1.0,0.9936120310470039,0.9984318074596631,True,,,,
+H2_own_beats_identity,,,0.6516731014652004,0.7430790957126996,True,0.6977079803355699,1.0,,
+H3_own_beats_wrong_seed,,,0.6614798223625954,0.7524841820112006,True,0.7075879523102149,1.0,,
+H4_pair_geometry_is_stable,,,,,True,,,0.9979062307430824,0.9981697278597941
